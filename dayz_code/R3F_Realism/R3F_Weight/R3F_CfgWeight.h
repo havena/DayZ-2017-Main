@@ -18,23 +18,23 @@ class CfgWeight
 		};
 		class Mosin38
 		{
-			weight = 3.3;
+			weight = 3.3;  // <-DayzRP.fr
 		};
 		class Tokarev
 		{
-			weight = 2.9;
+			weight = 1.5;  // <-DayzRP.fr
 		};
 		class M16_FlashLight
 		{
-			weight = 7.9;
+			weight = 7.9;  // <-DayzRP.fr
 		};
 		class M4_FlashLight
 		{
-			weight = 7.9;
+			weight = 7.9;  // <-DayzRP.fr
 		};
 		class Remington870_lamp
 		{
-			weight = 3.6;
+			weight = 3.6;  // <-DayzRP.fr
 		};
 		class SCAR_L_STD_Mk4CQT
 		{
@@ -114,7 +114,7 @@ class CfgWeight
 		};
 		class glock17_EP1
 		{
-			weight = 10000; //<- DayZ
+			weight = 1.7; // <- DayzRP.fr
 		};
 		class G36A_camo
 		{
@@ -326,7 +326,7 @@ class CfgWeight
 		};
 		class M1014
 		{
-			weight = 10000; //<- DayZ
+			weight = 4.5; //<- DayzRP.fr
 		};
 		class M240
 		{
@@ -378,15 +378,15 @@ class CfgWeight
 		};
 		class M9
 		{
-			weight = 10000;
+			weight = 1.0;  //<-DayzRP.fr
 		};
 		class M9SD
 		{
-			weight = 10000;
+			weight = 1.2;  //<-DayzRP.fr
 		};
 		class 8Rnd_B_Beneli_74Slug
 		{
-			weight = 0.3;
+			weight = 10000; //<-DayzRP.fr
 		};
 		class Javelin
 		{
@@ -410,7 +410,7 @@ class CfgWeight
 		};
 		class Binocular_Vector
 		{
-			weight = 10000;
+			weight = 1.2;  // <-DayzRP.fr
 		};
 		class NVGoggles
 		{
@@ -426,7 +426,7 @@ class CfgWeight
 		};
 		class ItemGPS
 		{
-			weight = 10000;
+			weight = 0.5;  //<-DayzRP.fr
 		};
 		class ItemWatch
 		{
@@ -440,7 +440,6 @@ class CfgWeight
 		{
 			weight = 10000;
 		};
-		
 		class AKS_74
 		{
 			weight = 10000;
@@ -467,7 +466,7 @@ class CfgWeight
 		};
 		class LeeEnfield
 		{
-			weight = 4;
+			weight = 10000; //<-DayzRP.fr
 		};
 		class AK_107_kobra
 		{
@@ -479,91 +478,91 @@ class CfgWeight
 		};
 		class AK_107_pso
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class AK_107_GL_pso
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class AKS_74_U
 		{
-				weight = 10000;
+			weight = 3.8;   //<-DayzRP.fr
 		};
 		class AKS_74_UN_kobra
 		{
-				weight = 10000;
+			weight = 4;  //<-DayzRP.fr
 		};
 		class AKS_74_pso
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class AKS_74_kobra
 		{
-				weight = 10000;
+			weight = 3.8;  //<-DayzRP.fr
 		};
 		class AK_74
 		{
-				weight = 10000;
+			weight = 3.6;  //<-DayzRP.fr
 		};
 		class AK_74_GL
 		{
-				weight = 10000;
+			weight = 4;  //<-DayzRP.fr
 		};
 		class AK_47_M
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class AK_47_S
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class PK
 		{
-				weight = 10000;
+			weight = 7.5;  //<-DayzRP.fr
 		};
 		class RPK_74
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class Pecheneg
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class Huntingrifle
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class KSVK
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class SVD
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class SVD_CAMO
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class Makarov
 		{
-			weight = 0.75;
+			weight = 10000; //<- DayzRP.fr
 		};
 		class MakarovSD
 		{
-				weight = 10000;
+			weight = 0.85; //<- DayzRP.fr
 		};
 		class Saiga12K
 		{
-				weight = 10000;
+			weight = 6;  //<-DayzRP.fr
 		};
-		class Bizon
+	        class Bizon
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class bizon_silenced
 		{
-				weight = 10000;
+			weight = 10000;
 		};
 		class VSS_Vintorez
 		{
@@ -601,7 +600,74 @@ class CfgWeight
 		{
 			weight = 4;
 		};
-		
+		class ARP_talky
+		{
+			weight = 0.5; //<-DayzRP.fr
+		};
+		class ARP_dice
+		{
+			weight = 0.01; //<-DayzRP.fr
+		};
+		class ARP_newspaper
+		{
+			weight = 0.05; //<-DayzRP.fr
+		};
+		class ARP_letter_norm
+		{
+			weight = 0.01; //<-DayzRP.fr
+		};
+		class ARP_leaflet_wanted
+		{
+			weight = 0.005; //<-DayzRP.fr
+		};
+		class ARP_cards
+		{
+			weight = 0.015; //<-DayzRP.fr
+		};
+		class ARP_ID
+		{
+			weight = 0.008; //<-DayzRP.fr
+		};
+		class ARP_cigarettes
+		{
+			weight = 0.03; //<-DayzRP.fr
+		};
+		class ARP_playboy
+		{
+			weight = 0.04; //<-DayzRP.fr
+		};
+		class ARP_suitcase_black
+		{
+			weight = 0.6; //<-DayzRP.fr
+		};
+		class ARP_picture_gf
+		{
+			weight = 0.005; //<-DayzRP.fr
+		};
+		class ARP_picture_fam
+		{
+			weight = 0.005; //<-DayzRP.fr
+		};
+		class ARP_vodka
+		{
+			weight = 0.250; //<-DayzRP.fr
+		};
+		class ARP_joint
+		{
+			weight = 0.002 //<-DayzRP.fr
+		};
+		class ARP_mouchoir
+		{
+			weight = 0.001; //<-DayzRP.fr
+		};
+		class ARP_figatellu
+		{
+			weight = 0.05; //<-DayzRP.fr
+		};
+		class ARP_papier
+		{
+			weight = 0.02; //<-DayzRP.fr
+		};
 	};
 	
 	
@@ -649,7 +715,7 @@ class CfgWeight
 		};
 		class 17Rnd_9x19_glock17
 		{
-			weight = 10000;
+			weight = 0.21; //<-DayzRP.fr
 		};
 		class 6Rnd_45ACP
 		{
@@ -693,11 +759,11 @@ class CfgWeight
 		};
 		class 15Rnd_9x19_M9
 		{
-			weight = 10000;
+			weight = 0.18; //<-DayzRP.fr
 		};
 		class 15Rnd_9x19_M9SD
 		{
-			weight = 10000;
+			weight = 0.2; //<-DayzRP.fr
 		};
 		class 1Rnd_HE_M203
 		{
@@ -817,11 +883,11 @@ class CfgWeight
 		};
 		class HandGrenade_west
 		{
-			weight = 10000;
+			weight = 0.5; // <-DayzRP.fr
 		};
 		class PipeBomb
 		{
-			weight = 10000;
+			weight = 2.4; //	<-DayzRP.fr
 		};
 		class TimeBomb
 		{
@@ -833,7 +899,7 @@ class CfgWeight
 		};
 		class SmokeShellRed
 		{
-			weight = 0.4;
+			weight = 0.4; //<-DayzRP.fr
 		};
 		class SmokeShellYellow
 		{
@@ -841,11 +907,11 @@ class CfgWeight
 		};
 		class SmokeShellGreen
 		{
-			weight = 0.4;
+			weight = 0.4; //<-DayzRP.fr
 		};
 		class SmokeShellBlue
 		{
-			weight = 10000;
+			weight = 0.4; //<-DayzRP.fr
 		};
 		class SmokeShellPurple
 		{
@@ -857,20 +923,19 @@ class CfgWeight
 		};
 		class SmokeShell
 		{
-			weight = 0.4;
+			weight = 0.4; //<-DayzRP.fr
 		};
-		
 		class 10x_303
 		{
-			weight = 0.15;
+			weight = 10000; //<-DayzRP.fr
 		};
 		class 30Rnd_545x39_AK
 		{
-			weight = 10000;
+			weight = 1; //<-DayzRP.fr
 		};
 		class 30Rnd_545x39_AKSD
 		{
-			weight = 10000;
+			weight = 1.2; //<-DayzRP.fr
 		};
 		class 75Rnd_545x39_RPK
 		{
@@ -882,7 +947,7 @@ class CfgWeight
 		};
 		class 100Rnd_762x54_PK
 		{
-			weight = 10000;
+			weight = 4; //<-DayzRP.fr
 		};
 		class 5x_22_LR_17_HMR
 		{
@@ -906,15 +971,15 @@ class CfgWeight
 		};
 		class 8Rnd_9x18_Makarov
 		{
-			weight =  0.15;
+			weight =  10000; //<-DayzRP.fr
 		};
 		class 8Rnd_9x18_MakarovSD
 		{
-			weight = 10000;
+			weight = 0.18; //<-DayzRP.fr
 		};
 		class 8Rnd_B_Saiga12_74Slug
 		{
-			weight = 10000;
+			weight = 2.4; //<-DayzRP.fr
 		};
 		class 64Rnd_9x19_Bizon
 		{
@@ -924,21 +989,21 @@ class CfgWeight
 		{
 			weight = 10000;
 		};
-		class 1Rnd_HE_GP25
+		class 1Rnd_HE_GP25 
 		{
-			weight = 10000;
+			weight = 0.4; //<-DayzRP.fr
 		};
-		class FlareWhite_GP25
+		class FlareWhite_GP25 
 		{
-			weight = 10000;
+			weight = 0.4; //<-DayzRP.fr
 		};
-		class FlareGreen_GP25
+		class FlareGreen_GP25 
 		{
-			weight = 10000;
+			weight = 0.4; //<-DayzRP.fr
 		};
-		class FlareRed_GP25
+		class FlareRed_GP25 
 		{
-			weight = 10000;
+			weight = 0.4; //<-DayzRP.fr
 		};
 		class FlareYellow_GP25
 		{
@@ -946,15 +1011,15 @@ class CfgWeight
 		};
 		class 1Rnd_SMOKE_GP25
 		{
-			weight = 10000;
+			weight = 0.4; //<-DayzRP.fr
 		};
 		class 1Rnd_SMOKERED_GP25
 		{
-			weight = 10000;
+			weight = 0.4; //<-DayzRP.fr
 		};
 		class 1Rnd_SMOKEGREEN_GP25
 		{
-			weight = 10000;
+			weight = 0.4; //<-DayzRP.fr
 		};
 		class 1Rnd_SMOKEYELOW_GP25
 		{
@@ -1102,7 +1167,7 @@ class CfgWeight
 		};
 		class ItemMatchbox
 		{
-			weight = 0.01;
+			weight = 10000; //<-DayzRP.fr
 		};
 		class ItemEtool
 		{
@@ -1206,19 +1271,215 @@ class CfgWeight
 		};
 		class HandChemRed
 		{
-			weight = 0.5;
+			weight = 0.5; //<-DayzRP.fr
 		};
 		class Single_W1866_Slug
 		{
-			weight = 0.6;
+			weight = 0.6; 
 		};
 		class Single_Rnd_Pellet
 		{
-			weight = 0.6;
+			weight = 0.6; 
 		};
 		class 15Rnd_556x45_Stanag_tapedmags
 		{
-			weight = 2.6;
+			weight = 2.6; //<-DayzRP.fr
+		};
+		class ARP_batteries
+		{
+			weight = 0.02; //<-DayzRP.fr
+		};
+		class ARP_tole_blindee
+		{
+			weight = 8; //<-DayzRP.fr
+		};
+		class ARP_ressort
+		{
+			weight = 0.001; //<-DayzRP.fr
+		};
+		class ARP_silencieux
+		{
+			weight = 0.1; //<-DayzRP.fr
+		};
+		class ARP_System_elec
+		{
+			weight = 0.05; //<-DayzRP.fr
+		};
+		class ARP_PK_trepied
+		{
+			weight = 0.5; //<-DayzRP.fr
+		};
+		class ARP_viseurPR
+		{
+			weight = 0.07; //<-DayzRP.fr
+		};
+		class ARP_Armature_2roues
+		{
+			weight = 3; //<-DayzRP.fr
+		};
+		class ARP_Armature_4roues
+		{
+			weight = 6; //<-DayzRP.fr
+		};
+		class ARP_graisse
+		{
+			weight = 0.05; //<-DayzRP.fr
+		};
+		class ARP_M4_crosse
+		{
+			weight = 1; //<-DayzRP.fr
+		};
+		class ARP_M1014_canon
+		{
+			weight = 0.5; //<-DayzRP.fr
+		};
+		class ARP_lance_grenade
+		{
+			weight = 0.2; //<-DayzRP.fr
+		};
+		class ARP_M2
+		{
+			weight = 8; //<-DayzRP.fr
+		};
+		class ARP_caoutchouc
+		{
+			weight = 0.08; //<-DayzRP.fr
+		};
+		class ARP_pistolet_canon
+		{
+			weight = 0.3; //<-DayzRP.fr
+		};
+		class ARP_M2_canon
+		{
+			weight = 0.75; //<-DayzRP.fr
+		};
+		class ARP_M4_canon
+		{
+			weight = 0.5; //<-DayzRP.fr
+		};
+		class ARP_M1014_armature
+		{
+			weight = 2.5; //<-DayzRP.fr
+		};
+		class ARP_M2_armature
+		{
+			weight = 3.75; //<-DayzRP.fr
+		};
+		class ARP_M4_armature
+		{
+			weight = 2.5; //<-DayzRP.fr
+		};
+		class ARP_pistolet_armature
+		{
+			weight = 0.7; //<-DayzRP.fr
+		};
+		class ARP_batterie_vehicule
+		{
+			weight = 0.5; //<-DayzRP.fr
+		};
+		class ARP_digitale
+		{
+			weight = 0.05; //<-DayzRP.fr
+		};
+		class ARP_exan
+		{
+			weight = 0.5; //<-DayzRP.fr
+		};
+		class ARP_toleondulee
+		{
+			weight = 0.5; //<-DayzRP.fr
+		};	
+		class ARP_cannabis
+		{
+			weight = 0.5; //<-DayzRP.fr
+		};	
+		class ARP_laser
+		{
+			weight = 0.01; //<-DayzRP.fr
+		};
+		class ARP_fils_elec
+		{
+			weight = 0.007; //<-DayzRP.fr
+		};
+		class ARP_plomb
+		{
+			weight = 0.05; //<-DayzRP.fr
+		};
+		class ARP_derailleur
+		{
+			weight = 0.1;
+		};
+		class ARP_craft_plastique
+		{
+			weight = 0.05; //<-DayzRP.fr
+		};
+		class ARP_gameboy
+		{
+			weight = 0.3; //<-DayzRP.fr
+		};
+		class ARP_culasse_rotative
+		{
+			weight = 0.6; //<-DayzRP.fr
+		};
+		class ARP_plante_grasse
+		{
+			weight = 0.8; //<-DayzRP.fr
+		};
+		class ARP_processeur
+		{
+			weight = 0.005; //<-DayzRP.fr
+		};
+		class ARP_phares
+		{
+			weight = 0.70; //<-DayzRP.fr
+		};
+		class ARP_siege
+		{
+			weight = 2.0; //<-DayzRP.fr
+		};
+		class ARP_traction
+		{
+			weight = 2.0; //<-DayzRP.fr
+		};
+		class ARP_derailleur
+		{
+			weight = 0.03; //<-DayzRP.fr
+		};
+		class ARP_mousse
+		{
+			weight = 0.05; //<-DayzRP.fr
+		};
+		class ARP_mecanisme
+		{
+			weight = 0.7; //<-DayzRP.fr
+		};
+		class ARP_chenille
+		{
+			weight = 5.0; //<-DayzRP.fr
+		};
+		class ARP_filtre_cafe
+		{
+			weight = 0.001; //<-DayzRP.fr
+		};
+		class ARP_tanboxer_dirty
+		{
+			weight = 0.3; //<-DayzRP.fr
+		};
+		class ARP_bandana_black
+		{
+			weight = 0.02; //<-DayzRP.fr
+		};
+		class ARP_cordage
+		{
+			weight = 0.50; //<-DayzRP.fr
+		};
+		class ARP_plastique
+		{
+			weight = 1.0; //<-DayzRP.fr
+		};
+		class ARP_radio
+		{
+			weight = 0.5; //<-DayzRP.fr
 		};
 	};
 };

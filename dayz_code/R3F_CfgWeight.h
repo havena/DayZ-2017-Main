@@ -1020,7 +1020,7 @@ class CfgWeight
 		class 1Rnd_SMOKEGREEN_GP25
 		{
 			weight = 0.4; //<-DayzRP.fr
-		{
+		};
 		class 1Rnd_SMOKEYELOW_GP25
 		{
 			weight = 10000;

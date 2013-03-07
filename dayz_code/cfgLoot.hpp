@@ -41,6 +41,7 @@ class CfgLoot {
 			0.01,	// "Single_Rnd_Pellet",
 			0.01,	// "ItemBandage",
 			0.01	// "ItemPainkiller"
+		}
 	};
 	food[] = {
 		{

@@ -302,7 +302,7 @@ class ARP_PP_balles_sub: ItemCoreDayZRP
 class ARP_PP_douille_metal: ItemCoreDayZRP
 {
 		scope=2;
-		displayName="Petit pack de douilles métaliques vides";
+		displayName="Petit pack de douilles metaliques vides";
 		picture="\arp_items\img\PP_douille-metal.paa";
 };
 class ARP_PP_poudre: ItemCoreDayZRP
@@ -422,7 +422,7 @@ class ARP_pale_helico: ItemCoreDayZRP
 class ARP_canon_char: ItemCoreDayZRP
 {
 		scope=2;
-		displayName="Morceaux de canon pour blindé";
+		displayName="Morceaux de canon pour blinde";
 		picture="\arp_items\img\canon.paa";
 };
 class ARP_siege: ItemCoreDayZRP
@@ -434,7 +434,7 @@ class ARP_siege: ItemCoreDayZRP
 class ARP_chenille: ItemCoreDayZRP
 {
 		scope=2;
-		displayName="Chenille pour blinde";
+		displayName="Tracto-pelle";
 		picture="\arp_items\img\chenille.paa";
 };
 class ARP_traction: ItemCoreDayZRP

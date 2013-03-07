@@ -167,9 +167,9 @@ class CfgBuildingLoot {
 				{"WeaponHolder_MeleeCrowbar","object"},
 				{"ice_apo_pack1","object"},
 				{"MR43","weapon"},
-				{"ARP_suitcase_black","magazine"},
-				{"ARP_cards","generic"},
-				{"ARP_picture_gf","generic"}
+				{"ARP_suitcase_black","weapon"},
+				{"ARP_cards","weapon"},
+				{"ARP_picture_gf","weapon"}
 		};
 		itemChance[] =	{
 				0.01,	// {"ItemWatch","generic"},
@@ -187,9 +187,9 @@ class CfgBuildingLoot {
 				0.04,	// {"WeaponHolder_MeleeCrowbar","object"},
 				0.01,	// {"ice_apo_pack1","object"},
 				0.01,	// {"MR43","weapon","object"},
-				0.02,	// {"ARP_suitcase_black","magazine"},
-				0.01,	// {"ARP_cards","generic"},
-				0.01	// {"ARP_picture_gf","generic"}
+				0.02,	// {"ARP_suitcase_black","weapon"},
+				0.01,	// {"ARP_cards","weapon"},
+				0.01	// {"ARP_picture_gf","weapon"}
 		};		
 	};
 	class Office: Residential {
@@ -309,8 +309,8 @@ class CfgBuildingLoot {
 				{"ice_apo_pack2","object"},
 				{"ice_apo_pack3","object"},
 				{"ice_apo_pack4","object"},
-				{"ARP_suitcase_black","generic"},
-				{"ARP_cards","generic"}
+				{"ARP_suitcase_black","weapon"},
+				{"ARP_cards","weapon"}
 		};
 		itemChance[] =	{
 				0.01,	// {"ItemWatch","generic"},
@@ -331,8 +331,8 @@ class CfgBuildingLoot {
 				0.01,	// {"ice_apo_pack2","object"},
 				0.01,	// {"ice_apo_pack3","object"},
 				0.01,	// {"ice_apo_pack4","object"},
-				0.01,	// {"ARP_suitcase_black","generic"},
-				0.01	// {"ARP_cards","generic"}
+				0.01,	// {"ARP_suitcase_black","weapon"},
+				0.01	// {"ARP_cards","weapon"}
 		};
 	};
 	class HeliCrash: Default {
@@ -343,12 +343,12 @@ class CfgBuildingLoot {
 		lootPos[] = {};
 		itemType[] =	{		
 				{"ARP_cannabis","magazine"},
-				{"ARP_talky","generic"},
+				{"ARP_talky","weapon"},
 				{"ARP_culasse_rotative","magazine"}
 		};
 		itemChance[] =	{
 				0.05,		// {"ARP_cannabis","magazine"},
-				0.03,		// {"ARP_talky","generic"},
+				0.03,		// {"ARP_talky","weapon"},
 				0.005		// {"ARP_culasse_rotative","magazine"}
 		};
 	};
@@ -362,16 +362,16 @@ class CfgBuildingLoot {
 		itemType[] =	{
 			{"","trash"},
 			{"","hospital"},
-			{"ARP_playboy","generic"},
-			{"ARP_talky","generic"},
+			{"ARP_playboy","weapon"},
+			{"ARP_talky","weapon"},
 			{"ARP_cannabis","magazine"},
 			{"ARP_acide","magazine"}
 		};
 		itemChance[] =	{
 			0.08,	// {"","trash"},
 			0.02,	// {"","hospital"},
-			0.01,	// {"ARP_playboy","generic"},
-			0.01,	// {"ARP_talky","generic"},
+			0.01,	// {"ARP_playboy","weapon"},
+			0.01,	// {"ARP_talky","weapon"},
 			0.01,	// {"ARP_cannabis","magazine"},
 			0.01	// {"ARP_acide","magazine"}
 		};
@@ -396,9 +396,9 @@ class CfgBuildingLoot {
 				{"WeaponHolder_MeleeCrowbar","object"},
 				{"Tokarev","weapon"},
 				{"Winchester1866","weapon"},
-				{"ARP_talky","generic"},
+				{"ARP_talky","weapon"},
 				{"ARP_acide","magazine"},
-				{"ARP_picture_gf","generic"},
+				{"ARP_picture_gf","weapon"},
 				{"ARP_kit_soudure","generic"}
 		};
 		itemChance[] =	{
@@ -415,9 +415,9 @@ class CfgBuildingLoot {
 				0.02,	// {"WeaponHolder_MeleeCrowbar","object"},
 				0.02,	// {"Tokarev","weapon"},
 				0.01,	// {"Winchester1866","weapon"},
-				0.01,	// {"ARP_talky","generic"},
+				0.01,	// {"ARP_talky","weapon"},
 				0.01,	// {"ARP_acide","magazine"},
-				0.02,	// {"ARP_picture_gf","generic"},
+				0.02,	// {"ARP_picture_gf","weapon"},
 				0.01	// {"ARP_kit_soudure","generic"}
 		};
 	};
@@ -445,10 +445,10 @@ class CfgBuildingLoot {
 				{"Winchester1866","weapon"},
 				{"ARP_acide","magazine"},
 				{"ARP_processeur","magazine"},
-				{"ARP_suitcase_black","generic"},
+				{"ARP_suitcase_black","weapon"},
 				{"ARP_laser","magazine"},
 				{"ARP_exan","magazine"},
-				{"ARP_talky","generic"}
+				{"ARP_talky","weapon"}
 
 		};
 		itemChance[] =	{
@@ -468,10 +468,10 @@ class CfgBuildingLoot {
 				0.02,	// {"Winchester1866","weapon"},
 				0.02,	// {"ARP_acide","magazine"},
 				0.005,	// {"ARP_processeur","magazine"},
-				0.02,	// {"ARP_suitcase_black","generic"},
+				0.02,	// {"ARP_suitcase_black","weapon"},
 				0.01,	// {"ARP_laser",""magazine"},
 				0.01,	// {"ARP_exan",""magazine"},
-				0.05	// {"ARP_talky","generic"}
+				0.05	// {"ARP_talky","weapon"}
 		};
 	};
 	class Church: Residential {

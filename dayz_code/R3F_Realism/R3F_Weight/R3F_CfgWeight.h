@@ -1405,10 +1405,6 @@ class CfgWeight
 		{
 			weight = 0.05; //<-DayzRP.fr
 		};
-		class ARP_derailleur
-		{
-			weight = 0.1;
-		};
 		class ARP_craft_plastique
 		{
 			weight = 0.05; //<-DayzRP.fr

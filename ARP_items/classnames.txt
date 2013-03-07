@@ -1,0 +1,91 @@
+ARP Items v1.3
+By: Raztoux, member of DayZRP.fr
+
+Weapons N= normal, M= military, S= suspicious
+=====
+v1.0
+"ARP_cards"		n Carte
+"ARP_dice"		n Des
+"ARP_ID"		sm Carte d'identite
+"ARP_letter_norm"	n Lettre
+"ARP_newspaper"		n Journal
+"ARP_picture_fam"	n Photo de famille
+"ARP_playboy"		n Magazine Playboy
+
+
+v1.1
+"ARP_batteries"		n Piles
+"ARP_cigarettes"	n cigarettes
+"ARP_CLP"		m Colle
+"ARP_detcord"		m Cable electrique
+"ARP_ducttape"		n Ruban adhésif
+"ARP_exan"		s exan
+"ARP_steelpipe"		s Barre d'acier
+"ARP_vodka"		n vodka
+"ARP_wpnclnkit"		m Kit de montage pour fusil
+
+
+v1.2
+"ARP_leaflet_wanted"	nsm Avis de recherche
+"ARP_m16_bolt" 		sm Percuteur pour fusil
+"ARP_m16_lower_receiver"sm m16 Crosse de M16
+
+
+V1.3
+"ARP_AK_armature"	m Armature pour AK
+"ARP_AK_canon"		m Canon pour AK
+"ARP_AK_crosse"		m Crosse pour AK
+"ARP_Armature_2roues"	n Armature pour 2 roues
+"ARP_Armature_4roues"	n Armature pour 4 roues
+"ARP_batterie_vehicule"	n Batterie de voiture
+"ARP_caoutchouc"	n Morceaux de caoutchouc
+"ARP_chargeur_fusil_v"	m Chargeur pour fusil vide
+"ARP_chargeur_pistol_v"	m Chargeur pour pistolet vide
+"ARP_digitale"		ns Bouquet de digitale
+"ARP_douille_vide"	m Douille de chasse vide
+"ARP_fils_elec"		n Fils electrique
+"ARP_GP_balles"		m Grand pack de balles vides
+"ARP_GP_balles_sub"	m Grand pack de balles subsoniques vides
+"ARP_GP_douille_metal"	m Grand pack de douilles metaliques vides
+"ARP_GP_poudre"		mns Grand pack de poudre noire
+"ARP_graisse"		n Graisse
+"ARP_lance_grenade"	m Lance-grenade pour fusil
+"ARP_laser"		m Pointeur laser
+"ARP_lentille"		n Lentille
+"ARP_M1014_armature"	m Armature pour M1014
+"ARP_M1014_canon"	m Canon pour M1014
+"ARP_M1014_crosse"	m Crosse pour M1014
+"ARP_M16_canon"		m Canon pour M16
+"ARP_M4_armature"	m Armature pour M4
+"ARP_M4_canon"		m Canon pour M4
+"ARP_M4_crosse"		m Crosse pour M4
+"ARP_pistolet_armature"	m Armature pour pistolet
+"ARP_pistolet_canon"	m Canon pour pistolet
+"ARP_piece_acier"	n Pieces en acier
+"ARP_piece_metal"	n Pieces de metal
+"ARP_plantemedicinale"	ns Plante medicinale
+"ARP_plaque_acier"	n Plaque en acier
+"ARP_PP_balles"		m Petit pack de balles vides
+"ARP_PP_balles_sub"	m Petit pack de balles subsoniques vides
+"ARP_PP_douille_metal"	m Petit pack de douilles metaliques vides
+"ARP_PP_poudre"		mns Petit pack de poudre noire
+"ARP_ressort"		n Ressort
+"ARP_Saiga_armature"	m Armature pour Saiga
+"ARP_Saiga_canon"	m Canon pour Saiga
+"ARP_Saiga_crosse"	m Crosse pour Saiga
+"ARP_silencieux"	m Silencieux
+"ARP_System_elec"	n Systeme electrique
+"ARP_tole_blindee"	n Plaque blindee
+"ARP_toleondulee"	n Tole ondulee
+"ARP_vis"		n Vis
+"ARP_viseurPR"		m Viseur Point Rouge
+"ARP_tube_metal"	n Tube en metal
+"ARP_PK_canon"		m Canon pour PK
+"ARP_PK_trepied"	m Trepied pour PK
+"ARP_PK_armature"	m Armature pour PK
+"ARP_PK_crosse"		m Crosse pour PK
+"ARP_M2_canon"		m Canon pour M2
+"ARP_M2_armature"	m Armature pour M2
+"ARP_socle_tournant"	m Socle tournant
+"ARP_M2"		m M2
+"ARP_kit_soudure"	n Kit de soudure

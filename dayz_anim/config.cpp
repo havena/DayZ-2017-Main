@@ -453,7 +453,7 @@ class CfgMagazines {
 	};
 	
 	class 8Rnd_9x18_Makarov: FakeMagazine {};
-	class 8Rnd_9x18_MakarovSD: FakeMagazine {};
+	//class 8Rnd_9x18_MakarovSD: FakeMagazine {};
 	//class 15Rnd_9x19_M9: FakeMagazine {};
 	//class 15Rnd_9x19_M9SD: FakeMagazine {};
 	//class 30Rnd_9x19_MP5SD: FakeMagazine {};
@@ -479,20 +479,20 @@ class CfgMagazines {
 	//class 64Rnd_9x19_SD_Bizon: FakeMagazine {};
 	//class 10Rnd_9x39_SP5_VSS: FakeMagazine {};
 	//class 20Rnd_9x39_SP5_VSS: FakeMagazine {};
-	class 8Rnd_B_Saiga12_74Slug: FakeMagazine {};
+	//class 8Rnd_B_Saiga12_74Slug: FakeMagazine {};
 	class 8Rnd_B_Beneli_74Slug: FakeMagazine {};
 	//class 5Rnd_127x108_KSVK: FakeMagazine {};
 	//class 10Rnd_127x99_m107: FakeMagazine {};
 	//class 1Rnd_HE_M203: FakeMagazine {};
-	class 1Rnd_HE_GP25: FakeMagazine {};
+	//class 1Rnd_HE_GP25: FakeMagazine {};
 	class FlareWhite_GP25: FakeMagazine {};
 	class FlareGreen_GP25: FakeMagazine {};
 	class FlareRed_GP25: FakeMagazine {};
 	class FlareYellow_GP25: FakeMagazine {};
-	class 1Rnd_SMOKE_GP25: FakeMagazine {};
-	class 1Rnd_SmokeRed_GP25: FakeMagazine {};
-	class 1Rnd_SmokeGreen_GP25: FakeMagazine {};
-	class 1Rnd_SmokeYellow_GP25: FakeMagazine {};
+	//class 1Rnd_SMOKE_GP25: FakeMagazine {};
+	//class 1Rnd_SmokeRed_GP25: FakeMagazine {};
+	//class 1Rnd_SmokeGreen_GP25: FakeMagazine {};
+	//class 1Rnd_SmokeYellow_GP25: FakeMagazine {};
 	class CA_LauncherMagazine: FakeMagazine {};
 	class M136: FakeMagazine {};
 	class Javelin: FakeMagazine {};
@@ -610,17 +610,17 @@ class CfgMagazines {
 	class TimeBomb: FakeMagazine {};
 	class Mine: FakeMagazine {};
 	class MineE: FakeMagazine {};
-	class PipeBomb: FakeMagazine {};
+	//class PipeBomb: FakeMagazine {};
 	class HandGrenade: FakeMagazine {};
 	class HandGrenade_Stone: FakeMagazine {};
-	class HandGrenade_West: FakeMagazine {};
+	//class HandGrenade_West: FakeMagazine {};
 	class HandGrenade_East: FakeMagazine {};
-	class SmokeShell: FakeMagazine {};
-	class SmokeShellRed: FakeMagazine {};
-	class SmokeShellGreen: FakeMagazine {};
-	class SmokeShellYellow: FakeMagazine {};
-	class SmokeShellPurple: FakeMagazine {};
-	class SmokeShellBlue: FakeMagazine {};
+	//class SmokeShell: FakeMagazine {};
+	//class SmokeShellRed: FakeMagazine {};
+	//class SmokeShellGreen: FakeMagazine {};
+	//class SmokeShellYellow: FakeMagazine {};
+	//class SmokeShellPurple: FakeMagazine {};
+	//class SmokeShellBlue: FakeMagazine {};
 	class SmokeShellOrange: FakeMagazine {};
 	class Laserbatteries: FakeMagazine {};
 	class 5x_22_LR_17_HMR: FakeMagazine {};
@@ -676,7 +676,7 @@ class CfgMagazines {
 	class 4Rnd_Stinger: FakeMagazine {};
 	//class 30Rnd_9x19_UZI_SD: FakeMagazine {};
 	//class 30Rnd_9x19_UZI: FakeMagazine {};
-	//class 6Rnd_45ACP: FakeMagazine {};
+	class 6Rnd_45ACP: FakeMagazine {};
 	//class 17Rnd_9x19_glock17: FakeMagazine {};
 	class MAAWS_HEDP: FakeMagazine {};
 	class MAAWS_HEAT: FakeMagazine {};
@@ -721,7 +721,7 @@ class CfgMagazines {
 	class 30Rnd_105mmSMOKE_M119: FakeMagazine {};
 	class 30Rnd_105mmILLUM_M119: FakeMagazine {};
 	class 20Rnd_762x51_FNFAL: FakeMagazine {};
-	class 10x_303: FakeMagazine {};
+	//class 10x_303: FakeMagazine {};
 	class Dragon_EP1: FakeMagazine {};
 	class PMC_ied_v1: FakeMagazine {};
 	class PMC_ied_v2: FakeMagazine {};
@@ -740,7 +740,7 @@ class CfgMagazines {
 	class 6Rnd_HE_M203_heli: FakeMagazine {};
 	class 150Rnd_23mm_GSh23L: FakeMagazine {};
 		
-	// add 2017 ammo ban list
+	//add 2017 ammo ban list
 	
 	class 100Rnd_762x51_M240 : FakeMagazine {};
 	class 5Rnd_127x99_as50 : FakeMagazine {};
@@ -766,11 +766,11 @@ class CfgMagazines {
 	class 20Rnd_762x51_DMR : FakeMagazine {};
 	class 5Rnd_762x51_M24 : FakeMagazine {};
 	class 10Rnd_762x54_SVD : FakeMagazine {};
-	class 15Rnd_9x19_M9SD : FakeMagazine {};
-	class 17Rnd_9x19_glock17 : FakeMagazine {};
+	//class 15Rnd_9x19_M9SD : FakeMagazine {};
+	//class 17Rnd_9x19_glock17 : FakeMagazine {};
 	class 30Rnd_9x19_UZI : FakeMagazine {};
 	class 30Rnd_9x19_UZI_SD : FakeMagazine {};
-	// end 2017 ammo ban list
+	//end 2017 ammo ban list
 };
 
 class CfgWeapons {
@@ -794,10 +794,10 @@ class CfgWeapons {
 	};
 	//class MGun: FakeWeapon {};
 	//class Pistol: FakeWeapon {};
-	class M9: FakeWeapon {};
-	class M9SD: FakeWeapon {};
-	//class Makarov: FakeWeapon {};
-	class MakarovSD: FakeWeapon {};
+	//class M9: FakeWeapon {};
+	//class M9SD: FakeWeapon {};
+	class Makarov: FakeWeapon {};
+	//class MakarovSD: FakeWeapon {};
 	class GrenadeLauncher: FakeWeapon {};
 	//class Rifle: FakeWeapon {};
 	//class M16_base: FakeWeapon {};
@@ -823,7 +823,7 @@ class CfgWeapons {
 	class M4A1_HWS_GL_camo: FakeWeapon {};
 	class MP5SD: FakeWeapon {};
 	class MP5A5: FakeWeapon {};
-	class PK: FakeWeapon {};
+	//class PK: FakeWeapon {};
 	class Pecheneg: FakeWeapon {};
 	class SVD: FakeWeapon {};
 	class SVD_CAMO: FakeWeapon {};
@@ -850,7 +850,7 @@ class CfgWeapons {
 	//class TimeBomb: FakeWeapon {};
 	class Mine: FakeWeapon {};
 	class MineE: FakeWeapon {};
-	class PipeBomb: FakeWeapon {};
+	//class PipeBomb: FakeWeapon {};
 	class SmokeLauncher: FakeWeapon {};
 	class FlareLauncher: FakeWeapon {};
 	class M134: FakeWeapon {};
@@ -959,7 +959,7 @@ class CfgWeapons {
 	class Cobalt_File: FakeWeapon {};
 	//class ItemWatch: FakeWeapon {};
 	//class ItemCompass: FakeWeapon {};
-	class ItemGPS: FakeWeapon {};
+	//class ItemGPS: FakeWeapon {};
 	class ItemRadio: FakeWeapon {};
 	//class ItemMap: FakeWeapon {};
 	class EvPhoto: FakeWeapon {};
@@ -974,27 +974,27 @@ class CfgWeapons {
 	class AK_47_M: FakeWeapon {};
 	class AK_47_S: FakeWeapon {};
 	class AKS_GOLD: FakeWeapon {};
-	class AK_74: FakeWeapon {};
-	class AK_74_GL: FakeWeapon {};
+	//class AK_74: FakeWeapon {};
+	//class AK_74_GL: FakeWeapon {};
 	class AK_107_kobra: FakeWeapon {};
 	class AK_107_GL_kobra: FakeWeapon {};
 	class AK_107_GL_pso: FakeWeapon {};
 	class AK_107_pso: FakeWeapon {};
-	class AKS_74_kobra: FakeWeapon {};
+	//class AKS_74_kobra: FakeWeapon {};
 	class AKS_74_pso: FakeWeapon {};
-	class AKS_74_U: FakeWeapon {};
-	class AKS_74_UN_kobra: FakeWeapon {};
+	//class AKS_74_U: FakeWeapon {};
+	//class AKS_74_UN_kobra: FakeWeapon {};
 	class RPK_74: FakeWeapon {};
 	class bizon: FakeWeapon {};
 	class bizon_silenced: FakeWeapon {};
 	class Colt1911: FakeWeapon {};
 	class DMR: FakeWeapon {};
 	class ksvk: FakeWeapon {};
-	class M1014: FakeWeapon {};
+	//class M1014: FakeWeapon {};
 	class m107: FakeWeapon {};
 	class M252: FakeWeapon {};
 	class 2B14: FakeWeapon {};
-	class Saiga12K: FakeWeapon {};
+	//class Saiga12K: FakeWeapon {};
 	class VSS_vintorez: FakeWeapon {};
 	class PMC_documents: FakeWeapon {};
 	class m8_base: FakeWeapon {};
@@ -1058,15 +1058,15 @@ class CfgWeapons {
 	class Sa61_EP1: FakeWeapon {};
 	class UZI_EP1: FakeWeapon {};
 	class UZI_SD_EP1: FakeWeapon {};
-	//class revolver_EP1: FakeWeapon {};
-	//class revolver_gold_EP1: FakeWeapon {};
-	class glock17_EP1: FakeWeapon {};
+	class revolver_EP1: FakeWeapon {};
+	class revolver_gold_EP1: FakeWeapon {};
+	//class glock17_EP1: FakeWeapon {};
 	class M60A4_EP1: FakeWeapon {};
 	class Mk_48_DES_EP1: FakeWeapon {};
 	class M249_EP1: FakeWeapon {};
 	class M249_TWS_EP1: FakeWeapon {};
 	class M249_m145_EP1: FakeWeapon {};
-	//class M24_des_EP1: FakeWeapon {};
+	class M24_des_EP1: FakeWeapon {};
 	class SVD_des_EP1: FakeWeapon {};
 	class SVD_NSPU_EP1: FakeWeapon {};
 	class Sa58P_EP1: FakeWeapon {};
@@ -1075,9 +1075,9 @@ class CfgWeapons {
 	class Sa58V_CCO_EP1: FakeWeapon {};
 	class M4A3_CCO_EP1: FakeWeapon {};
 	class M4A3_RCO_GL_EP1: FakeWeapon {};
-	class Binocular_Vector: FakeWeapon {};
+	//class Binocular_Vector: FakeWeapon {};
 	class AK_74_GL_kobra: FakeWeapon {};
-	class AKS_74: FakeWeapon {};
+	//class AKS_74: FakeWeapon {};
 	class AKS_74_NSPU: FakeWeapon {};
 	class AKS_74_GOSHAWK: FakeWeapon {};
 	class FN_FAL: FakeWeapon {};
@@ -1173,7 +1173,7 @@ class CfgVehicles {
 	class DSHKM_RU: Banned {};
 	class USMC_Soldier: Banned {};
 	class USMC_Soldier_Light: Banned {};
-	// class USMC_Soldier2: Banned {};
+	//class USMC_Soldier2: Banned {};
 	class USMC_Soldier_GL: Banned {};
 	class USMC_Soldier_Officer: Banned {};
 	class USMC_Soldier_SL: Banned {};
@@ -1256,7 +1256,7 @@ class CfgVehicles {
 	class MVD_Soldier_MG: Banned {};
 	class MVD_Soldier_Marksman: Banned {};
 	class MVD_Soldier_Sniper: Banned {};
-	// class GUE_Soldier_Base: Banned {};
+	//class GUE_Soldier_Base: Banned {};
 	class GUE_Soldier_1: Banned {};
 	class GUE_Soldier_2: Banned {};
 	//class GUE_Soldier_3: Banned {};
@@ -1701,7 +1701,7 @@ class CfgVehicles {
 	class BRDM2_HQ_Gue: Banned {};
 	class Ural_ZU23_Gue: Banned {};
 	class Pickup_PK_GUE: Banned {};
-	class Pickup_PK_INS: Banned {};
+	//class Pickup_PK_INS: Banned {};
 	class Offroad_DSHKM_Gue: Banned {};
 	class Offroad_SPG9_Gue: Banned {};
 	class Offroad_DSHKM_INS: Banned {};
@@ -1942,7 +1942,7 @@ class CfgVehicles {
 	class Mi171Sh_rockets_CZ_EP1: Banned {};
 	class Mi171Sh_CZ_EP1: Banned {};
 	class Mi17_TK_EP1: Banned {};
-	class UH1H_TK_EP1: Banned {};
+	//class UH1H_TK_EP1: Banned {};
 	class UH1H_TK_GUE_EP1: Banned {};
 	class UH60M_EP1: Banned {};
 	class UH60M_MEV_EP1: Banned {};

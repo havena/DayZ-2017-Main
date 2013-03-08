@@ -452,7 +452,7 @@ class CfgMagazines {
 		maxLeadSpeed = 0;
 	};
 	
-	class 8Rnd_9x18_Makarov: FakeMagazine {};
+	// class 8Rnd_9x18_Makarov: FakeMagazine {};
 	//class 8Rnd_9x18_MakarovSD: FakeMagazine {};
 	//class 15Rnd_9x19_M9: FakeMagazine {};
 	//class 15Rnd_9x19_M9SD: FakeMagazine {};
@@ -796,7 +796,7 @@ class CfgWeapons {
 	//class Pistol: FakeWeapon {};
 	//class M9: FakeWeapon {};
 	//class M9SD: FakeWeapon {};
-	class Makarov: FakeWeapon {};
+	// class Makarov: FakeWeapon {};
 	//class MakarovSD: FakeWeapon {};
 	class GrenadeLauncher: FakeWeapon {};
 	//class Rifle: FakeWeapon {};

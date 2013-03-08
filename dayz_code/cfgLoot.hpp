@@ -129,7 +129,7 @@ class CfgLoot {
 			"ItemHeatPack" 
 		},
 		{
-			0.01,	// "ItemBandage",
+			0.02,	// "ItemBandage",
 			0.01,	// "ItemPainkiller",
 			0.01,	// "ItemMorphine",
 			0.01,	// "ItemEpinephrine",
@@ -145,7 +145,7 @@ class CfgLoot {
 			"ItemAntibiotic"
 		},
 		{
-			0.01,	// "ItemBandage",
+			0.02,	// "ItemBandage",
 			0.01,	// "ItemPainkiller",
 			0.01,	// "ItemMorphine",
 			0.01,	// "ItemEpinephrine",
@@ -175,7 +175,7 @@ class CfgLoot {
 		{
 			0.17,	// "TrashTinCan",
 			0.17,	// "ItemSodaEmpty",
-			0.01,	// "ItemBandage",
+			0.02,	// "ItemBandage",
 			0.01,	// "ItemPainkiller",
 			0.01,	// "ItemMorphine",
 			0.01,	// "SmokeShell",
@@ -200,7 +200,7 @@ class CfgLoot {
 			"HandRoadFlare"
 		},
 		{
-			0.01,	// "ItemBandage",
+			0.02,	// "ItemBandage",
 			0.01,	// "8Rnd_TT",
 			0.01,	// "Single_W1866_Slug",
 			0.01	// "HandRoadFlare"
@@ -214,7 +214,7 @@ class CfgLoot {
 			"ItemHeatPack"
 		},
 		{
-			0.01,	// "ItemBandage",
+			0.02,	// "ItemBandage",
 			0.01,	// "ItemWaterbottleUnfilled",
 			0.01,	// "BoltSteel",
 			0.01	// "ItemHeatPack"

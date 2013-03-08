@@ -5,20 +5,15 @@ class CfgLoot {
 			"TrashJackDaniels",
 			"ItemSodaEmpty",
 			"ARP_fils_elec",
-			"ARP_newspaper",
-			"ARP_plastique",
-			"ARP_mouchoir",
-			"ARP_papier"
+			"ARP_plastique"
+
 		},
 		{
 			0.05,	// "TrashTinCan",
 			0.01,	// "TrashJackDaniels",
 			0.05,	// "ItemSodaEmpty",
 			0.02,	// "ARP_fils_elec",
-			0.03,	// "ARP_newspaper",
-			0.02,	// "ARP_plastique",
-			0.02,	// "ARP_mouchoir",
-			0.03	// "ARP_papier"
+			0.02	// "ARP_plastique"
 		}
 	};
 	civilian[] = {
@@ -93,18 +88,9 @@ class CfgLoot {
 			"HandChemBlue",
 			"HandChemRed",
 			"ItemHeatPack",
-			"ARP_picture_fam",
-			"ARP_vodka",
-			"ARP_playboy",
-			"ARP_letter_norm",
-			"ARP_dice",
-			"ARP_leaflet_wanted",
-			"ARP_cigarettes",
-			"ARP_ID",
 			"ARP_tanboxer_dirty",
 			"ARP_batteries",
 			"ARP_filtre_cafe",
-			"ARP_figatellu",
 			"ARP_gameboy",
 			"ARP_chaine"
 		},
@@ -127,18 +113,9 @@ class CfgLoot {
 			0.01,	// "HandChemBlue",
 			0.01,	// "HandChemRed",
 			0.01,	// "ItemHeatPack",
-			0.01,	// "ARP_picture_fam",
-			0.01,	// "ARP_vodka",
-			0.01,	// "ARP_playboy",
-			0.01,	// "ARP_letter_norm",
-			0.01,	// "ARP_dice",
-			0.01,	// "ARP_leaflet_wanted",
-			0.01,	// "ARP_cigarettes",
-			0.01,	// "ARP_ID",
 			0.02,	// "ARP_tanboxer_dirty",
 			0.02,	// "ARP_batteries",
-			0.01,	//  "ARP_filtre_cafe",
-			0.01,	// "ARP_figatellu",
+			0.01,	// "ARP_filtre_cafe",
 			0.02,	// "ARP_gameboy",
 			0.02	// "ARP_chaine"          
 		}

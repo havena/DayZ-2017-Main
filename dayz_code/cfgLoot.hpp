@@ -12,7 +12,7 @@ class CfgLoot {
 			0.05,	// "TrashTinCan",
 			0.01,	// "TrashJackDaniels",
 			0.05,	// "ItemSodaEmpty",
-			0.02,	// "ARP_fils_elec",
+			0.01,	// "ARP_fils_elec",
 			0.02	// "ARP_plastique"
 		}
 	};
@@ -170,7 +170,7 @@ class CfgLoot {
 			"Single_W1866_Slug",
 			"8Rnd_TT",
 			"mosin_bullet",
-			"ice_60Rnd_556x45_Stanag_tape"
+			"15Rnd_556x45_Stanag_tapedmags"
 		},
 		{
 			0.17,	// "TrashTinCan",

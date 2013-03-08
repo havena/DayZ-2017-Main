@@ -171,16 +171,13 @@ class CfgBuildingLoot {
 				{"ARP_cards","weapon"},
 				{"ARP_picture_gf","weapon"},
 				{"ARP_newspaper","weapon"},
-				{"ARP_mouchoir","weapon"},
 				{"ARP_papier","weapon"},
 				{"ARP_picture_fam","weapon"},
-				{"ARP_vodka","weapon"},
 				{"ARP_letter_norm","weapon"},
 				{"ARP_dice","weapon"},
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_figatellu","weapon"},
 				{"ARP_playboy","weapon"}
 				
 		};
@@ -204,16 +201,13 @@ class CfgBuildingLoot {
 				0.01,	// {"ARP_cards","weapon"},
 				0.01,	// {"ARP_picture_gf","weapon"},
 				0.03,	// {"ARP_newspaper","weapon"},
-				0.02,	// {"ARP_mouchoir","weapon"},
 				0.03,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.01,	// {"ARP_vodka","weapon"},
 				0.02,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01,	// {"ARP_figatellu","weapon"},
 				0.01	// {"ARP_playboy","weapon"}
 		};		
 	};
@@ -241,21 +235,17 @@ class CfgBuildingLoot {
 				{"ItemToolbox","weapon"},
 				{"ItemWire","magazine"},
 				{"ItemTankTrap","magazine"},
-				{"ARP_kit_soudure","generic"},
 				{"ARP_disque_frein","magazine"},
 				{"ARP_toleondulee","magazine"},
 				{"ARP_mousse","magazine"},
 				{"ARP_newspaper","weapon"},
-				{"ARP_mouchoir","weapon"},
 				{"ARP_papier","weapon"},
 				{"ARP_picture_fam","weapon"},
-				{"ARP_vodka","weapon"},
 				{"ARP_letter_norm","weapon"},
 				{"ARP_dice","weapon"},
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_figatellu","weapon"},
 				{"ARP_playboy","weapon"}
 		};
 		itemChance[] =	{
@@ -272,21 +262,17 @@ class CfgBuildingLoot {
 				0.01,	// {"ItemToolbox","weapon"},
 				0.01,	// {"ItemWire","magazine"},
 				0.01,	// {"ItemTankTrap","magazine"},
-				0.03,	// {"ARP_kit_soudure","generic"},
 				0.02,	// {"ARP_disque_frein","magazine"},
 				0.03,	// {"ARP_toleondulee","magazine"},
 				0.02,	// {"ARP_mousse","magazine"},
 				0.03,	// {"ARP_newspaper","weapon"},
-				0.02,	// {"ARP_mouchoir","weapon"},
 				0.03,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.01,	// {"ARP_vodka","weapon"},
 				0.02,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01,	// {"ARP_figatellu","weapon"},
 				0.01	// {"ARP_playboy","weapon"}
 		};
 	};
@@ -309,21 +295,17 @@ class CfgBuildingLoot {
 				{"MR43","weapon"},
 				{"TrapBear","magazine"},
 				{"ARP_digitale","magazine"},
-				{"ARP_kit_soudure","generic"},
 				{"ARP_salpetre","magazine"},
 				{"ARP_plante_grasse","magazine"},
 				{"ARP_cannabis","magazine"},
 				{"ARP_newspaper","weapon"},
-				{"ARP_mouchoir","weapon"},
 				{"ARP_papier","weapon"},
 				{"ARP_picture_fam","weapon"},
-				{"ARP_vodka","weapon"},
 				{"ARP_letter_norm","weapon"},
 				{"ARP_dice","weapon"},
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_figatellu","weapon"},
 				{"ARP_playboy","weapon"}
 		};
 		itemChance[] =	{
@@ -339,21 +321,17 @@ class CfgBuildingLoot {
 				0.01,	// {"MR43","weapon"},
 				0.01,	// {"TrapBear","magazine"},
 				0.02,	// {"ARP_digitale","magazine"},
-				0.02,	// {"ARP_kit_soudure","generic"},
 				0.01,	// {"ARP_salpetre","magazine"},
 				0.02,	// {"ARP_plante_grasse","magazine"},
 				0.01,	// {"ARP_cannabis","magazine"},
 				0.03,	// {"ARP_newspaper","weapon"},
-				0.02,	// {"ARP_mouchoir","weapon"},
 				0.03,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.01,	// {"ARP_vodka","weapon"},
 				0.02,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01,	// {"ARP_figatellu","weapon"},
 				0.01	// {"ARP_playboy","weapon"}
 		};
 	};
@@ -385,16 +363,13 @@ class CfgBuildingLoot {
 				{"ARP_suitcase_black","weapon"},
 				{"ARP_cards","weapon"},
 				{"ARP_newspaper","weapon"},
-				{"ARP_mouchoir","weapon"},
 				{"ARP_papier","weapon"},
 				{"ARP_picture_fam","weapon"},
-				{"ARP_vodka","weapon"},
 				{"ARP_letter_norm","weapon"},
 				{"ARP_dice","weapon"},
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_figatellu","weapon"},
 				{"ARP_playboy","weapon"}
 		};
 		itemChance[] =	{
@@ -419,16 +394,13 @@ class CfgBuildingLoot {
 				0.01,	// {"ARP_suitcase_black","weapon"},
 				0.01,	// {"ARP_cards","weapon"},
 				0.03,	// {"ARP_newspaper","weapon"},
-				0.02,	// {"ARP_mouchoir","weapon"},
 				0.03,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.01,	// {"ARP_vodka","weapon"},
 				0.02,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01,	// {"ARP_figatellu","weapon"},
 				0.01	// {"ARP_playboy","weapon"}
 		};
 	};
@@ -464,7 +436,6 @@ class CfgBuildingLoot {
 			{"ARP_cannabis","magazine"},
 			{"ARP_acide","magazine"},
 			{"ARP_newspaper","weapon"},
-			{"ARP_mouchoir","weapon"},
 			{"ARP_papier","weapon"}
 		};
 		itemChance[] =	{
@@ -475,7 +446,6 @@ class CfgBuildingLoot {
 			0.01,	// {"ARP_cannabis","magazine"},
 			0.01,	// {"ARP_acide","magazine"},
 			0.03,	// {"ARP_newspaper","weapon"},
-			0.02,	// {"ARP_mouchoir","weapon"},
 			0.03	// {"ARP_papier","weapon"}
 		};
 	};
@@ -502,18 +472,14 @@ class CfgBuildingLoot {
 				{"ARP_talky","weapon"},
 				{"ARP_acide","magazine"},
 				{"ARP_picture_gf","weapon"},
-				{"ARP_kit_soudure","generic"},
 				{"ARP_newspaper","weapon"},
-				{"ARP_mouchoir","weapon"},
 				{"ARP_papier","weapon"},
 				{"ARP_picture_fam","weapon"},
-				{"ARP_vodka","weapon"},
 				{"ARP_letter_norm","weapon"},
 				{"ARP_dice","weapon"},
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_figatellu","weapon"},
 				{"ARP_playboy","weapon"}
 		};
 		itemChance[] =	{
@@ -533,18 +499,14 @@ class CfgBuildingLoot {
 				0.01,	// {"ARP_talky","weapon"},
 				0.01,	// {"ARP_acide","magazine"},
 				0.02,	// {"ARP_picture_gf","weapon"},
-				0.01,	// {"ARP_kit_soudure","generic"},
 				0.03,	// {"ARP_newspaper","weapon"},
-				0.02,	// {"ARP_mouchoir","weapon"},
 				0.03,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.01,	// {"ARP_vodka","weapon"},
 				0.02,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01,	// {"ARP_figatellu","weapon"},
 				0.01	// {"ARP_playboy","weapon"}
 		};
 	};
@@ -577,16 +539,13 @@ class CfgBuildingLoot {
 				{"ARP_exan","magazine"},
 				{"ARP_talky","weapon"},
 				{"ARP_newspaper","weapon"},
-				{"ARP_mouchoir","weapon"},
 				{"ARP_papier","weapon"},
 				{"ARP_picture_fam","weapon"},
-				{"ARP_vodka","weapon"},
 				{"ARP_letter_norm","weapon"},
 				{"ARP_dice","weapon"},
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_figatellu","weapon"},
 				{"ARP_playboy","weapon"}
 
 		};
@@ -612,16 +571,13 @@ class CfgBuildingLoot {
 				0.01,	// {"ARP_exan",""magazine"},
 				0.05,	// {"ARP_talky","weapon"},
 				0.03,	// {"ARP_newspaper","weapon"},
-				0.02,	// {"ARP_mouchoir","weapon"},
 				0.03,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.01,	// {"ARP_vodka","weapon"},
 				0.02,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01,	// {"ARP_figatellu","weapon"},
 				0.01	// {"ARP_playboy","weapon"}
 
 		};

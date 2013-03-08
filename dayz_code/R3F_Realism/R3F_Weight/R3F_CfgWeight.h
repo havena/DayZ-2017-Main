@@ -546,7 +546,7 @@ class CfgWeight
 		};
 		class Makarov
 		{
-			weight = 10000; //<- DayzRP.fr
+			weight = 0.70; //<- DayzRP.fr
 		};
 		class MakarovSD
 		{
@@ -971,7 +971,7 @@ class CfgWeight
 		};
 		class 8Rnd_9x18_Makarov
 		{
-			weight =  10000; //<-DayzRP.fr
+			weight =  0.18; //<-DayzRP.fr
 		};
 		class 8Rnd_9x18_MakarovSD
 		{

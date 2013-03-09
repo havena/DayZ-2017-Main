@@ -654,7 +654,7 @@ class CfgWeight
 		};
 		class ARP_joint
 		{
-			weight = 0.002 //<-DayzRP.fr
+			weight = 0.002; //<-DayzRP.fr
 		};
 		class ARP_mouchoir
 		{

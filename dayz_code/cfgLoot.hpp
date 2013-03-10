@@ -34,7 +34,7 @@ class CfgLoot {
 			0.01,	// "8Rnd_9x18_Makarov",
 			0.01,	// "Single_W1866_Slug",
 			0.01,	// "Single_Rnd_Pellet",
-			0.01,	// "ItemBandage",
+			0.02,	// "ItemBandage",
 			0.01	// "ItemPainkiller"
 		}
 	};
@@ -145,7 +145,7 @@ class CfgLoot {
 			"ItemAntibiotic"
 		},
 		{
-			0.02,	// "ItemBandage",
+			0.01,	// "ItemBandage",
 			0.01,	// "ItemPainkiller",
 			0.01,	// "ItemMorphine",
 			0.01,	// "ItemEpinephrine",
@@ -175,7 +175,7 @@ class CfgLoot {
 		{
 			0.17,	// "TrashTinCan",
 			0.17,	// "ItemSodaEmpty",
-			0.02,	// "ItemBandage",
+			0.01,	// "ItemBandage",
 			0.01,	// "ItemPainkiller",
 			0.01,	// "ItemMorphine",
 			0.01,	// "SmokeShell",
@@ -189,7 +189,7 @@ class CfgLoot {
 			0.01,	// "Single_W1866_Slug",
 			0.01,	// "8Rnd_TT",
 			0.01,	// "mosin_bullet",
-			0.01	// "15Rnd_556x45_Stanag_tape"
+			0.01	// "15Rnd_556x45_Stanag_tapedmags"
 		};
 	};
 	policeman[] = {

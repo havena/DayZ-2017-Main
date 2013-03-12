@@ -576,7 +576,7 @@ class cfgMagazines {
 	};
 	class 10Rnd_W1866_Slug : CA_Magazine {
 		scope = public;
-		displayName = "Single Slug";
+		displayName = "10Rnd Slug";
 		ammo = "B_1866_Slug";
 		model = "\dayz_weapons\models\shell.p3d";
 		picture = "\dayz_weapons\textures\equip_shells_ca.paa";
@@ -593,8 +593,9 @@ class cfgMagazines {
     };
 	
 	class 2Rnd_Pellet : Single_W1866_Slug {
-    displayName = "Single Pellets";
-    descriptionShort = "Single Cartridge (Pellets)";
+	count = 2;
+    displayName = "2Rnd Pellets";
+    descriptionShort = "2Rnd Cartridge (Pellets)";
     displayNameShort = "Pellets";
     };
 	

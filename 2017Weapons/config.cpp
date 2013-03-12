@@ -64,8 +64,8 @@ class CfgMagazines {
 		
 		class 5Rnd_mosin_bullet : CA_Magazine {
 		scope = public;
-		displayName = "Mosin Bullet";
-		model = "\2017Weapons\bullet";
+		displayName = "Mosin Clip";
+		model = "\2017Weapons\5rnd_clip";
 		ammo = "VIL_FR_Ball";
 		count = 5;
 		initSpeed = 800;

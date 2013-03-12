@@ -299,7 +299,8 @@ class cfgWeapons {
 		model = "\dayz_weapons\models\Winchester1866";
 		picture = "\dayz_weapons\textures\equip_winchester1866_CA.paa";
 		UiPicture = "\CA\weapons\data\Ico\i_regular_CA.paa";
-		magazines[] = {"Single_W1866_Slug"};
+		// magazines[] = {"Single_W1866_Slug"};
+		magazines[] = {"10Rnd_W1866_Slug", "Single_W1866_Slug"};
 		optics = true;
 		modelOptics = "-";
 		displayname = $STR_WPN_NAME_1;
@@ -339,7 +340,8 @@ class cfgWeapons {
 		picture = "\dayz_weapons\textures\equip_mr43_CA.paa";
 		displayname = $STR_WPN_NAME_5;
 		descriptionShort = $STR_WPN_DESC_5;
-		magazines[] = {"Single_Rnd_Pellet"};
+		magazines[] = {"2Rnd_Pellet", "Single_Rnd_Pellet"};
+		// magazines[] = {"Single_Rnd_Pellet"};
 		
 		class Single : Mode_SemiAuto {
 			dispersion = 0.003;
@@ -365,14 +367,16 @@ class cfgWeapons {
 		picture = "\dayz_weapons\textures\equip_remington870_CA.paa";
 		displayname = $STR_WPN_NAME_2;
 		descriptionShort = $STR_WPN_DESC_2;
-		magazines[] = {"Single_W1866_Slug"};
+		// magazines[] = {"Single_W1866_Slug"};
+		magazines[] = {"10Rnd_W1866_Slug", "Single_W1866_Slug"};
 	};
 	
 	class Remington870_lamp : Remington870 {
 		model = "\dayz_weapons\models\Remington870_lamp";
 		displayname = $STR_WPN_NAME_3;
 		descriptionShort = $STR_WPN_DESC_3;
-		magazines[] = {"Single_W1866_Slug"};
+		// magazines[] = {"Single_W1866_Slug"};
+		magazines[] = {"10Rnd_W1866_Slug", "Single_W1866_Slug"};
 		
 		class FlashLight {
 			color[] = {0.9, 0.9, 0.7, 0.9};
@@ -570,8 +574,25 @@ class cfgMagazines {
 		descriptionShort = "Single Cartridge (Slugs)";
 		displayNameShort = "Slugs";
 	};
+	class 10Rnd_W1866_Slug : CA_Magazine {
+		scope = public;
+		displayName = "Single Slug";
+		ammo = "B_1866_Slug";
+		model = "\dayz_weapons\models\shell.p3d";
+		picture = "\dayz_weapons\textures\equip_shells_ca.paa";
+		count = 10;
+		initSpeed = 396;
+		descriptionShort = "10Rnd Cartridge (Slugs)";
+		displayNameShort = "Slugs";
+	};
 	
 	class Single_Rnd_Pellet : Single_W1866_Slug {
+    displayName = "Single Pellets";
+    descriptionShort = "Single Cartridge (Pellets)";
+    displayNameShort = "Pellets";
+    };
+	
+	class 2Rnd_Pellet : Single_W1866_Slug {
     displayName = "Single Pellets";
     descriptionShort = "Single Cartridge (Pellets)";
     displayNameShort = "Pellets";

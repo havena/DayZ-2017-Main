@@ -22,8 +22,8 @@ class CfgLoot {
 			"TrashJackDaniels",
 			"ItemSodaEmpty",
 			"8Rnd_9x18_Makarov",
-			"Single_W1866_Slug",
-			"Single_Rnd_Pellet",
+			"10Rnd_W1866_Slug",
+			"2Rnd_Pellet",
 			"ItemBandage",
 			"ItemPainkiller"
 		},
@@ -31,9 +31,9 @@ class CfgLoot {
 			0.06,	// "TrashTinCan",
 			0.01,	// "TrashJackDaniels",
 			0.06,	// "ItemSodaEmpty",
-			0.01,	// "8Rnd_9x18_Makarov",
-			0.01,	// "Single_W1866_Slug",
-			0.01,	// "Single_Rnd_Pellet",
+			0.02,	// "8Rnd_9x18_Makarov",
+			0.01,	// "10Rnd_W1866_Slug",
+			0.01,	// "2Rnd_Pellet",
 			0.02,	// "ItemBandage",
 			0.01	// "ItemPainkiller"
 		}
@@ -75,12 +75,11 @@ class CfgLoot {
 			"TrashJackDaniels",
 			"ItemWaterbottleUnfilled",
 			"ItemBandage",
-			"mosin_bullet",
+			"5Rnd_mosin_bullet",
 			"8Rnd_TT",
-			"Single_W1866_Slug",
-			"Single_Rnd_Pellet",
+			"10Rnd_W1866_Slug",
+			"2Rnd_Pellet",
 			"8Rnd_9x18_Makarov",
-			"Single_W1866_Slug",
 			"BoltSteel",
 			"HandRoadFlare",
 			"ItemPainkiller",
@@ -100,13 +99,12 @@ class CfgLoot {
 			0.01,	// "TrashJackDaniels",
 			0.01,	// "ItemWaterbottleUnfilled",
 			0.01,	// "ItemBandage",
-			0.01,	// "mosin_bullet",
-			0.01,	// "8Rnd_TT",
-			0.01,	// "Single_W1866_Slug",
-			0.01,	// "Single_Rnd_Pellet",
-			0.01,	// "8Rnd_9x18_Makarov",
-			0.01,	// "Single_W1866_Slug",
-			0.01,	// "BoltSteel",
+			0.02,	// "5Rnd_mosin_bullet",
+			0.02,	// "8Rnd_TT",
+			0.02,	// "10Rnd_W1866_Slug",
+			0.02,	// "2Rnd_Pellet",
+			0.02,	// "8Rnd_9x18_Makarov",
+			0.02,	// "BoltSteel",
 			0.01,	// "HandRoadFlare",
 			0.01,	// "ItemPainkiller",
 			0.01,	// "HandChemGreen",
@@ -167,10 +165,11 @@ class CfgLoot {
 			"HandChemRed",
 			"ItemHeatPack",
 			"8Rnd_9x18_Makarov",
-			"Single_W1866_Slug",
+			"10Rnd_W1866_Slug",
 			"8Rnd_TT",
-			"mosin_bullet",
-			"15Rnd_556x45_Stanag_tapedmags"
+			"5Rnd_mosin_bullet",
+			"15Rnd_556x45_Stanag_tapedmags",
+			"2Rnd_Pellet"
 		},
 		{
 			0.17,	// "TrashTinCan",
@@ -185,25 +184,29 @@ class CfgLoot {
 			0.01,	// "HandChemBlue",
 			0.01,	// "HandChemRed",
 			0.01,	// "ItemHeatPack"
-			0.01,	// "8Rnd_9x18_Makarov",
-			0.01,	// "Single_W1866_Slug",
-			0.01,	// "8Rnd_TT",
-			0.01,	// "mosin_bullet",
-			0.01	// "15Rnd_556x45_Stanag_tapedmags"
+			0.02,	// "8Rnd_9x18_Makarov",
+			0.02,	// "10Rnd_W1866_Slug",
+			0.02,	// "8Rnd_TT",
+			0.02,	// "5Rnd_mosin_bullet",
+			0.01,	// "15Rnd_556x45_Stanag_tapedmags",
+			0.02	// "2Rnd_Pellet"
+			
 		};
 	};
 	policeman[] = {
 		{
 			"ItemBandage",
 			"8Rnd_TT",
-			"Single_W1866_Slug",
-			"HandRoadFlare"
+			"10Rnd_W1866_Slug",
+			"HandRoadFlare",
+			"2Rnd_Pellet"
 		},
 		{
 			0.02,	// "ItemBandage",
-			0.01,	// "8Rnd_TT",
-			0.01,	// "Single_W1866_Slug",
-			0.01	// "HandRoadFlare"
+			0.02,	// "8Rnd_TT",
+			0.02,	// "10Rnd_W1866_Slug",
+			0.01	// "HandRoadFlare",
+			0.02	// "2Rnd_Pellet"
 		}
 	};
 	hunter[] = {
@@ -211,13 +214,15 @@ class CfgLoot {
 			"ItemBandage",
 			"ItemWaterbottleUnfilled",
 			"BoltSteel",
-			"ItemHeatPack"
+			"ItemHeatPack",
+			"2Rnd_Pellet"
 		},
 		{
 			0.02,	// "ItemBandage",
 			0.01,	// "ItemWaterbottleUnfilled",
-			0.01,	// "BoltSteel",
-			0.01	// "ItemHeatPack"
+			0.02,	// "BoltSteel",
+			0.01	// "ItemHeatPack",
+			0.02	// "2Rnd_Pellet"
 		}
 	};
 };

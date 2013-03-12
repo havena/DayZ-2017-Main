@@ -62,6 +62,16 @@ class CfgMagazines {
 		picture = "\Ca\weapons\Data\Equip\m_M24_CA.paa";
 		};
 		
+		class 5Rnd_mosin_bullet : CA_Magazine {
+		scope = public;
+		displayName = "Mosin Bullet";
+		model = "\2017Weapons\bullet";
+		ammo = "VIL_FR_Ball";
+		count = 5;
+		initSpeed = 800;
+		picture = "\Ca\weapons\Data\Equip\m_M24_CA.paa";
+		};
+		
 	class 8Rnd_TT : CA_Magazine {
 		scope = 2;
 		displayName = "Tokarev magazine";
@@ -109,7 +119,7 @@ class cfgWeapons {
 		handAnim[] = {"OFP2_ManSkeleton", "\Ca\weapons\data\Anim\M16GL.rtm"};
 		opticsZoomMax = 0.42;
 		modes[] = {"Single"};
-		magazines[] = {"mosin_bullet"};
+		magazines[] = {"5Rnd_mosin_bullet", "mosin_bullet"};
 	class Single : Mode_SemiAuto {
 		sound[] = {"\2017Weapons\mosin.wav", 10.0, 1};
 		recoil = "assaultRifleBase";

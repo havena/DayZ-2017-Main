@@ -1277,10 +1277,22 @@ class CfgWeight
 		{
 			weight = 0.6; 
 		};
+		class 10Rnd_W1866_Slug  //<-DayzRP.fr
+		{
+			weight = 2.0; 
+		};
 		class Single_Rnd_Pellet
 		{
 			weight = 0.6; 
 		};
+		class 2Rnd_Pellet  //<-DayzRP.fr
+		{
+			weight = 0.6; 
+		};
+		class 5Rnd_mosin_bullet  //<-DayzRP.fr
+		{
+			weight = 1.0; 
+		};		
 		class 15Rnd_556x45_Stanag_tapedmags
 		{
 			weight = 2.6; //<-DayzRP.fr

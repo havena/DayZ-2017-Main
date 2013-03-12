@@ -34,7 +34,7 @@ class CfgMods
 		picture = "z\addons\dayz_code\gui\dayz_logo_ca.paa";
 		hidePicture = 0;
 		hideName = 0;
-		action = "http://www.opendayz.net";
+		action = "http://www.dayzrp.fr";
 		version = "2.0";
 		hiveVersion = 0.96; //0.93
 	};
@@ -314,7 +314,7 @@ class CfgBuildingLoot {
 				0.01,	// {"Mosin38","weapon"},
 				0.01,	// {"Winchester1866","weapon"},
 				0.42,	// {"","trash"},
-				0.01,	// {"Crossbow","weapon"},
+				0.02,	// {"Crossbow","weapon"},
 				0.01,	// {"PartWoodPile","magazine"},
 				0.02,	// {"WeaponHolder_ItemHatchet","object"},
 				0.01,	// {"ItemKnife","generic"},
@@ -375,7 +375,7 @@ class CfgBuildingLoot {
 		itemChance[] =	{
 				0.01,	// {"ItemWatch","generic"},
 				0.01,	// {"ItemMap","weapon"},
-				0.01,	// {"Makarov","weapon"},
+				0.02,	// {"Makarov","weapon"},
 				0.01,	// {"ItemFlashlight","generic"},
 				0.01,	// {"ItemFlint","generic"},
 				0.01,	// {"ItemKnife","generic"},
@@ -384,7 +384,7 @@ class CfgBuildingLoot {
 				0.01,	// {"WeaponHolder_ItemTent","object"},
 				0.01,	// {"","food"},
 				0.42,	// {"","trash"},
-				0.01,	// {"Crossbow","weapon"},
+				0.02,	// {"Crossbow","weapon"},
 				0.01,	// {"Binocular","weapon"},
 				0.02,	// {"WeaponHolder_MeleeCrowbar","object"},
 				0.01,	// {"ice_apo_pack1","object"},
@@ -527,6 +527,7 @@ class CfgBuildingLoot {
 				{"","generic"},
 				{"","military"},
 				{"","trash"},
+				{"Makarov","weapon"},
 				{"Mosin38","weapon"},
 				{"M16_FlashLight","weapon"},
 				{"M4_FlashLight","weapon"},
@@ -559,10 +560,11 @@ class CfgBuildingLoot {
 				0.50,	// {"","generic"},
 				0.50,	// {"","military"},
 				0.50,	// {"","trash"},
-				0.01,	// {"Mosin38","weapon"},
+				0.03,	// {"Mosin38","weapon"},				
+				0.02,	// {"Mosin38","weapon"},
 				0.01,	// {"M16_FlashLight","weapon"},
 				0.01,	// {"M4_FlashLight","weapon"},
-				0.02,	// {"Tokarev","weapon"},
+				0.03,	// {"Tokarev","weapon"},
 				0.02,	// {"Winchester1866","weapon"},
 				0.02,	// {"ARP_acide","magazine"},
 				0.005,	// {"ARP_processeur","magazine"},

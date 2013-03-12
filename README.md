@@ -1,4 +1,4 @@
-DayZ 2017 Project
+DayZ 2018 Project
 =================
 
 The Latest Fully Compiled Version Of DayZ 2017 (1.0) Can Be Downloaded From [Here] (http://opendayz.net/downloads/DayZ2017/@DayZ2017.rar).
@@ -14,7 +14,7 @@ Requirements
 Branches
 --------
 
- - **Dev** - Latest Commits for DayZ 2017 (Not Final)
+ - **Dev** - Latest Commits for DayZ 2018 (Not Final)
  - **Master** - Not Used
 
 Bugs/Issues
@@ -62,4 +62,6 @@ Credits
    - Lional Stapleton (Stapo) [[2017 Lite Server Pack] (https://github.com/Stapo/DayZ-Private-Server-Lite-2017)]
    - Luke Howitt [Art & Modeling]
    - Karwin Leutscher [Media & Video]
-
+ - DayZ 2018 Development Team
+   - Havena [Project Lead]
+   - Raztoux

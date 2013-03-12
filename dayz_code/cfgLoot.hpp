@@ -205,7 +205,7 @@ class CfgLoot {
 			0.02,	// "ItemBandage",
 			0.02,	// "8Rnd_TT",
 			0.02,	// "10Rnd_W1866_Slug",
-			0.01	// "HandRoadFlare",
+			0.01,	// "HandRoadFlare",
 			0.02	// "2Rnd_Pellet"
 		}
 	};
@@ -221,7 +221,7 @@ class CfgLoot {
 			0.02,	// "ItemBandage",
 			0.01,	// "ItemWaterbottleUnfilled",
 			0.02,	// "BoltSteel",
-			0.01	// "ItemHeatPack",
+			0.01,	// "ItemHeatPack",
 			0.02	// "2Rnd_Pellet"
 		}
 	};

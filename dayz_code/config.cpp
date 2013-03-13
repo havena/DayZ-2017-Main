@@ -404,23 +404,23 @@ class CfgBuildingLoot {
 				0.01	// {"ARP_playboy","weapon"}
 		};
 	};
-	class HeliCrash: Default {
-		zombieChance = 0;
-		maxRoaming = 2;
-		zombieClass[] = {"z_soldier_pilot"};
-		lootChance = 0.5;
-		lootPos[] = {};
-		itemType[] =	{		
-				{"ARP_cannabis","magazine"},
-				{"ARP_talky","weapon"},
-				{"ARP_culasse_rotative","magazine"}
-		};
-		itemChance[] =	{
-				0.05,		// {"ARP_cannabis","magazine"},
-				0.03,		// {"ARP_talky","weapon"},
-				0.005		// {"ARP_culasse_rotative","magazine"}
-		};
-	};
+	//class HeliCrash: Default {
+		//zombieChance = 0;
+		//maxRoaming = 2;
+		//zombieClass[] = {"z_soldier_pilot"};
+		//lootChance = 0.5;
+		//lootPos[] = {};
+		//itemType[] =	{		
+			//	{"ARP_cannabis","magazine"},
+			//	{"ARP_talky","weapon"},
+			//	{"ARP_culasse_rotative","magazine"}
+		//};
+		//itemChance[] =	{
+			//	0.05,		// {"ARP_cannabis","magazine"},
+			//	0.03,		// {"ARP_talky","weapon"},
+			//	0.005		// {"ARP_culasse_rotative","magazine"}
+		//};
+	//};
 	class Hospital: Default {
 		zombieChance = 0.4;
 		minRoaming = 2;
@@ -547,7 +547,8 @@ class CfgBuildingLoot {
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_playboy","weapon"}
+				{"ARP_playboy","weapon"},
+				{"ARP_culasse_rotative","magazine"}
 
 		};
 		itemChance[] =	{
@@ -580,7 +581,8 @@ class CfgBuildingLoot {
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01	// {"ARP_playboy","weapon"}
+				0.01,	// {"ARP_playboy","weapon"},
+				0.01	// {"ARP_culasse_rotative","magazine"}
 
 		};
 	};

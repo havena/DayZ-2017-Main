@@ -486,12 +486,6 @@ class ARP_mousse: ItemCoreDayZRP
 		displayName="Lambeau de mousse";
 		picture="\arp_items\img\mousse.paa";
 };
-class ARP_filtre_cafe: ItemCoreDayZRP
-{
-		scope=2;
-		displayName="Filtre a cafe";
-		picture="\arp_items\img\filtre_cafe.paa";
-};
 class ARP_plomb: ItemCoreDayZRP
 {
 		scope=2;
@@ -707,5 +701,11 @@ class ARP_joint: ItemCore
 		scope=2;
 		displayName="Joint";
 		picture="\arp_items\img\joint.paa";
+};
+class ARP_filtre_cafe: ItemCore
+{
+		scope=2;
+		displayName="Filtre a cafe";
+		picture="\arp_items\img\filtre_cafe.paa";
 };
 };

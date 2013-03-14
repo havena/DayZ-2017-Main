@@ -394,11 +394,6 @@ class cfgVehicles
 				Magazine="ARP_mousse";
 				count=25;
 			};
-			class _xx_ARP_filtre_cafe
-			{
-				Magazine="ARP_filtre_cafe";
-				count=25;
-			};
 			class _xx_ARP_plomb
 			{
 				Magazine="ARP_plomb";
@@ -575,6 +570,11 @@ class cfgVehicles
 			class _xx_ARP_joint
 			{
 				weapon="ARP_joint";
+				count=25;
+			};
+			class _xx_ARP_filtre_cafe
+			{
+				weapon="ARP_filtre_cafe";
 				count=25;
 			};
 		}; 

@@ -5,7 +5,7 @@ class CfgPatches {
 		weapons[] = {"ARP_CLP","ARP_kit_soudure","ARP_PK_montage",
 		"ARP_playboy","ARP_newspaper","ARP_picture_fam","ARP_vodka","ARP_suitcase_black","ARP_letter_norm",
 		"ARP_dice","ARP_leaflet_wanted","ARP_cards","ARP_cigarettes","ARP_ID","ARP_joint","ARP_figatellu","ARP_mouchoir",
-		"ARP_papier","ARP_talky","ARP_picture_gf"};
+		"ARP_papier","ARP_talky","ARP_picture_gf","ARP_filtre_cafe"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CAWeapons"};
 	};

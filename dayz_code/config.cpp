@@ -1,4 +1,4 @@
-#define VSoft		0
+3#define VSoft		0
 #define VArmor		1
 #define VAir		2
 
@@ -95,8 +95,8 @@ class RscStructuredTextGUI: RscStructuredText
 class CfgSurvival {
 	class Inventory {
 		class Default {
-							magazines[] = {"ItemBandage","HandRoadFlare","ItemWaterbottle"};
-						weapons[] = {"ItemFlint"};
+			magazines[] = {"ItemBandage","HandRoadFlare","ItemWaterbottle"};
+			weapons[] = {"ItemFlint"};
 			backpackWeapon = "";
 			backpack = "ice_apo_pack3";
 		};
@@ -178,7 +178,12 @@ class CfgBuildingLoot {
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_playboy","weapon"}
+				{"ARP_playboy","weapon"},
+				{"ARP_tanboxer_dirty","magazine"},
+				{"ARP_batteries","magazine"},
+				{"ARP_filtre_cafe","weapon"},
+				{"ARP_gameboy","magazine"},
+				{"ARP_chaine","magazine"}
 				
 		};
 		itemChance[] =	{
@@ -197,18 +202,23 @@ class CfgBuildingLoot {
 				0.04,	// {"WeaponHolder_MeleeCrowbar","object"},
 				0.01,	// {"ice_apo_pack1","object"},
 				0.01,	// {"MR43","weapon","object"},
-				0.02,	// {"ARP_suitcase_black","weapon"},
+				0.01,	// {"ARP_suitcase_black","weapon"},
 				0.01,	// {"ARP_cards","weapon"},
 				0.01,	// {"ARP_picture_gf","weapon"},
-				0.03,	// {"ARP_newspaper","weapon"},
-				0.03,	// {"ARP_papier","weapon"},
+				0.01,	// {"ARP_newspaper","weapon"},
+				0.01,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.02,	// {"ARP_letter_norm","weapon"},
+				0.01,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01	// {"ARP_playboy","weapon"}
+				0.01,	// {"ARP_playboy","weapon"},
+				0.02,	// {"ARP_tanboxer_dirty","magazine"},
+				0.02,	// {"ARP_batteries","magazine"},
+				0.02,	// {"ARP_filtre_cafe","weapon"},
+				0.02,	// {"ARP_gameboy","magazine"},
+				0.02	// {"ARP_chaine","magazine"}
 		};		
 	};
 	class Office: Residential {
@@ -246,7 +256,12 @@ class CfgBuildingLoot {
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_playboy","weapon"}
+				{"ARP_playboy","weapon"},
+				{"ARP_tanboxer_dirty","magazine"},
+				{"ARP_batteries","magazine"},
+				{"ARP_filtre_cafe","weapon"},
+				{"ARP_gameboy","magazine"},
+				{"ARP_chaine","magazine"}
 		};
 		itemChance[] =	{
 				0.04,	// {"","generic"},
@@ -263,17 +278,22 @@ class CfgBuildingLoot {
 				0.01,	// {"ItemWire","magazine"},
 				0.01,	// {"ItemTankTrap","magazine"},
 				0.02,	// {"ARP_disque_frein","magazine"},
-				0.03,	// {"ARP_toleondulee","magazine"},
+				0.02,	// {"ARP_toleondulee","magazine"},
 				0.02,	// {"ARP_mousse","magazine"},
-				0.03,	// {"ARP_newspaper","weapon"},
-				0.03,	// {"ARP_papier","weapon"},
+				0.01,	// {"ARP_newspaper","weapon"},
+				0.01,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.02,	// {"ARP_letter_norm","weapon"},
+				0.01,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01	// {"ARP_playboy","weapon"}
+				0.01,	// {"ARP_playboy","weapon"},
+				0.02,	// {"ARP_tanboxer_dirty","magazine"},
+				0.02,	// {"ARP_batteries","magazine"},
+				0.02,	// {"ARP_filtre_cafe","weapon"},
+				0.02,	// {"ARP_gameboy","magazine"},
+				0.02	// {"ARP_chaine","magazine"}
 		};
 	};
 	class Farm: Default {
@@ -306,7 +326,12 @@ class CfgBuildingLoot {
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_playboy","weapon"}
+				{"ARP_playboy","weapon"},
+				{"ARP_tanboxer_dirty","magazine"},
+				{"ARP_batteries","magazine"},
+				{"ARP_filtre_cafe","weapon"},
+				{"ARP_gameboy","magazine"},
+				{"ARP_chaine","magazine"}
 		};
 		itemChance[] =	{
 				0.01,	// {"WeaponHolder_ItemJerrycan","object"},
@@ -321,18 +346,23 @@ class CfgBuildingLoot {
 				0.01,	// {"MR43","weapon"},
 				0.01,	// {"TrapBear","magazine"},
 				0.02,	// {"ARP_digitale","magazine"},
-				0.01,	// {"ARP_salpetre","magazine"},
+				0.02,	// {"ARP_salpetre","magazine"},
 				0.02,	// {"ARP_plante_grasse","magazine"},
 				0.01,	// {"ARP_cannabis","magazine"},
-				0.03,	// {"ARP_newspaper","weapon"},
-				0.03,	// {"ARP_papier","weapon"},
+				0.01,	// {"ARP_newspaper","weapon"},
+				0.01,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.02,	// {"ARP_letter_norm","weapon"},
+				0.01,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01	// {"ARP_playboy","weapon"}
+				0.01,	// {"ARP_playboy","weapon"},
+				0.02,	// {"ARP_tanboxer_dirty","magazine"},
+				0.02,	// {"ARP_batteries","magazine"},
+				0.02,	// {"ARP_filtre_cafe","weapon"},
+				0.02,	// {"ARP_gameboy","magazine"},
+				0.02	// {"ARP_chaine","magazine"}
 		};
 	};
 	class Supermarket: Default {
@@ -370,7 +400,12 @@ class CfgBuildingLoot {
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_playboy","weapon"}
+				{"ARP_playboy","weapon"},
+				{"ARP_tanboxer_dirty","magazine"},
+				{"ARP_batteries","magazine"},
+				{"ARP_filtre_cafe","weapon"},
+				{"ARP_gameboy","magazine"},
+				{"ARP_chaine","magazine"}
 		};
 		itemChance[] =	{
 				0.01,	// {"ItemWatch","generic"},
@@ -393,15 +428,20 @@ class CfgBuildingLoot {
 				0.01,	// {"ice_apo_pack4","object"},
 				0.01,	// {"ARP_suitcase_black","weapon"},
 				0.01,	// {"ARP_cards","weapon"},
-				0.03,	// {"ARP_newspaper","weapon"},
-				0.03,	// {"ARP_papier","weapon"},
+				0.01,	// {"ARP_newspaper","weapon"},
+				0.01,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.02,	// {"ARP_letter_norm","weapon"},
+				0.01,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01	// {"ARP_playboy","weapon"}
+				0.01,	// {"ARP_playboy","weapon"},
+				0.02,	// {"ARP_tanboxer_dirty","magazine"},
+				0.02,	// {"ARP_batteries","magazine"},
+				0.02,	// {"ARP_filtre_cafe","weapon"},
+				0.02,	// {"ARP_gameboy","magazine"},
+				0.02	// {"ARP_chaine","magazine"}
 		};
 	};
 	//class HeliCrash: Default {
@@ -445,8 +485,8 @@ class CfgBuildingLoot {
 			0.01,	// {"ARP_talky","weapon"},
 			0.01,	// {"ARP_cannabis","magazine"},
 			0.01,	// {"ARP_acide","magazine"},
-			0.03,	// {"ARP_newspaper","weapon"},
-			0.03	// {"ARP_papier","weapon"}
+			0.01,	// {"ARP_newspaper","weapon"},
+			0.01	// {"ARP_papier","weapon"}
 		};
 	};
 	class Military: Default {
@@ -480,7 +520,12 @@ class CfgBuildingLoot {
 				{"ARP_leaflet_wanted","weapon"},
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
-				{"ARP_playboy","weapon"}
+				{"ARP_playboy","weapon"},
+				{"ARP_tanboxer_dirty","magazine"},
+				{"ARP_batteries","magazine"},
+				{"ARP_filtre_cafe","weapon"},
+				{"ARP_gameboy","magazine"},
+				{"ARP_chaine","magazine"}
 		};
 		itemChance[] =	{
 				0.01,	// {"Binocular","weapon"},
@@ -498,16 +543,21 @@ class CfgBuildingLoot {
 				0.01,	// {"Winchester1866","weapon"},
 				0.01,	// {"ARP_talky","weapon"},
 				0.02,	// {"ARP_acide","magazine"},
-				0.02,	// {"ARP_picture_gf","weapon"},
-				0.03,	// {"ARP_newspaper","weapon"},
-				0.03,	// {"ARP_papier","weapon"},
+				0.01,	// {"ARP_picture_gf","weapon"},
+				0.01,	// {"ARP_newspaper","weapon"},
+				0.01,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.02,	// {"ARP_letter_norm","weapon"},
+				0.01,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
-				0.01	// {"ARP_playboy","weapon"}
+				0.01,	// {"ARP_playboy","weapon"},
+				0.02,	// {"ARP_tanboxer_dirty","magazine"},
+				0.02,	// {"ARP_batteries","magazine"},
+				0.02,	// {"ARP_filtre_cafe","weapon"},
+				0.02,	// {"ARP_gameboy","magazine"},
+				0.02	// {"ARP_chaine","magazine"}
 		};
 	};
 	class MilitarySpecial: Default {
@@ -548,7 +598,12 @@ class CfgBuildingLoot {
 				{"ARP_cigarettes","weapon"},
 				{"ARP_ID","weapon"},
 				{"ARP_playboy","weapon"},
-				{"ARP_culasse_rotative","magazine"}
+				{"ARP_culasse_rotative","magazine"},
+				{"ARP_tanboxer_dirty","magazine"},
+				{"ARP_batteries","magazine"},
+				{"ARP_filtre_cafe","weapon"},
+				{"ARP_gameboy","magazine"},
+				{"ARP_chaine","magazine"}
 
 		};
 		itemChance[] =	{
@@ -569,20 +624,25 @@ class CfgBuildingLoot {
 				0.02,	// {"Winchester1866","weapon"},
 				0.02,	// {"ARP_acide","magazine"},
 				0.01,	// {"ARP_processeur","magazine"},
-				0.02,	// {"ARP_suitcase_black","weapon"},
+				0.01,	// {"ARP_suitcase_black","weapon"},
 				0.01,	// {"ARP_laser",""magazine"},
 				0.01,	// {"ARP_exan",""magazine"},
-				0.05,	// {"ARP_talky","weapon"},
-				0.03,	// {"ARP_newspaper","weapon"},
-				0.03,	// {"ARP_papier","weapon"},
+				0.01,	// {"ARP_talky","weapon"},
+				0.01,	// {"ARP_newspaper","weapon"},
+				0.01,	// {"ARP_papier","weapon"},
 				0.01,	// {"ARP_picture_fam","weapon"},
-				0.02,	// {"ARP_letter_norm","weapon"},
+				0.01,	// {"ARP_letter_norm","weapon"},
 				0.01,	// {"ARP_dice","weapon"},
 				0.01,	// {"ARP_leaflet_wanted","weapon"},
 				0.01,	// {"ARP_cigarettes","weapon"},
 				0.01,	// {"ARP_ID","weapon"},
 				0.01,	// {"ARP_playboy","weapon"},
-				0.01	// {"ARP_culasse_rotative","magazine"}
+				0.01,	// {"ARP_culasse_rotative","magazine"},
+				0.02,	// {"ARP_tanboxer_dirty","magazine"},
+				0.02,	// {"ARP_batteries","magazine"},
+				0.02,	// {"ARP_filtre_cafe","weapon"},
+				0.02,	// {"ARP_gameboy","magazine"},
+				0.02	// {"ARP_chaine","magazine"}
 
 		};
 	};

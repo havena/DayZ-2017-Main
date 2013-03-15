@@ -86,12 +86,7 @@ class CfgLoot {
 			"HandChemGreen",
 			"HandChemBlue",
 			"HandChemRed",
-			"ItemHeatPack",
-			"ARP_tanboxer_dirty",
-			"ARP_batteries",
-			"ARP_filtre_cafe",
-			"ARP_gameboy",
-			"ARP_chaine"
+			"ItemHeatPack"
 		},
 		{
 			0.16,	// "TrashTinCan",
@@ -110,12 +105,7 @@ class CfgLoot {
 			0.01,	// "HandChemGreen",
 			0.01,	// "HandChemBlue",
 			0.01,	// "HandChemRed",
-			0.01,	// "ItemHeatPack",
-			0.02,	// "ARP_tanboxer_dirty",
-			0.02,	// "ARP_batteries",
-			0.01,	// "ARP_filtre_cafe",
-			0.02,	// "ARP_gameboy",
-			0.02	// "ARP_chaine"          
+			0.01	// "ItemHeatPack"       
 		}
 	};
 	medical[] = {

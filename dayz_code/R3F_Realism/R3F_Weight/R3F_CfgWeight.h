@@ -668,6 +668,10 @@ class CfgWeight
 		{
 			weight = 0.02; //<-DayzRP.fr
 		};
+		class ARP_filtre_cafe
+		{
+			weight = 0.001; //<-DayzRP.fr
+		};
 	};
 	
 	
@@ -1464,10 +1468,6 @@ class CfgWeight
 		class ARP_chenille
 		{
 			weight = 5.0; //<-DayzRP.fr
-		};
-		class ARP_filtre_cafe
-		{
-			weight = 0.001; //<-DayzRP.fr
 		};
 		class ARP_tanboxer_dirty
 		{

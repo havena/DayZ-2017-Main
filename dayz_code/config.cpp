@@ -458,7 +458,7 @@ class CfgBuildingLoot {
 		//itemChance[] =	{
 			//	0.05,		// {"ARP_cannabis","magazine"},
 			//	0.03,		// {"ARP_talky","weapon"},
-			//	0.005		// {"ARP_culasse_rotative","magazine"}
+			//	0.01		// {"ARP_culasse_rotative","magazine"}
 		//};
 	//};
 	class Hospital: Default {
@@ -483,7 +483,7 @@ class CfgBuildingLoot {
 			0.02,	// {"","hospital"},
 			0.01,	// {"ARP_playboy","weapon"},
 			0.01,	// {"ARP_talky","weapon"},
-			0.01,	// {"ARP_cannabis","magazine"},
+			0.02,	// {"ARP_cannabis","magazine"},
 			0.01,	// {"ARP_acide","magazine"},
 			0.01,	// {"ARP_newspaper","weapon"},
 			0.01	// {"ARP_papier","weapon"}

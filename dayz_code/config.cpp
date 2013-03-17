@@ -616,7 +616,7 @@ class CfgBuildingLoot {
 				0.50,	// {"","generic"},
 				0.50,	// {"","military"},
 				0.50,	// {"","trash"},
-				0.03,	// {"Mosin38","weapon"},				
+				0.03,	// {"Makarov","weapon"},				
 				0.02,	// {"Mosin38","weapon"},
 				0.01,	// {"M16_FlashLight","weapon"},
 				0.01,	// {"M4_FlashLight","weapon"},

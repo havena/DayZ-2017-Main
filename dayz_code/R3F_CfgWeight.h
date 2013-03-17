@@ -935,11 +935,11 @@ class CfgWeight
 		};
 		class 30Rnd_545x39_AK
 		{
-			weight = 1; //<-DayzRP.fr
+			weight = 10000;
 		};
 		class 30Rnd_545x39_AKSD
 		{
-			weight = 1.2; //<-DayzRP.fr
+			weight = 10000;
 		};
 		class 75Rnd_545x39_RPK
 		{
@@ -1489,5 +1489,14 @@ class CfgWeight
 		{
 			weight = 0.5; //<-DayzRP.fr
 		};
+		class 15Rnd_545x39_AK
+		{
+			weight = 0.6; //<-DayzRP.fr
+		};
+		class 15Rnd_545x39_AKSD
+		{
+			weight = 0.8; //<-DayzRP.fr
+		};
+		
 	};
 };

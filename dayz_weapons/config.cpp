@@ -591,6 +591,12 @@ class cfgMagazines {
 		descriptionShort = "15Rnd Soviete (AK)";
 		displayNameShort = "AK";
 	};
+	class 15Rnd_545x39_AKSD : 30Rnd_545x39_AKSD {
+		displayName = "15Rnd AKSD";
+		count = 15;
+		descriptionShort = "15Rnd Soviete (AKSD)";
+		displayNameShort = "AKSD";
+	};
 	
 	class Single_Rnd_Pellet : Single_W1866_Slug {
     displayName = "Single Pellets";

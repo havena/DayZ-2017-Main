@@ -93,6 +93,20 @@ class CfgMagazines {
 			descriptionShort = "Calibre: 5,56x45 mm NATO <br/>60 Rounds, duct-taped<br/>Used in: M249 SAW, M4A1, M16A4";
 			picture = "\2017Weapons\data\double_ca.paa";
 	};
+	class 30Rnd_545x39_AK;
+	class 15Rnd_545x39_AK : 30Rnd_545x39_AK {
+		displayName = "15Rnd AK";
+		count = 15;
+		descriptionShort = "15Rnd Soviete (AK)";
+		displayNameShort = "AK";
+	};
+	class 30Rnd_545x39_AKSD;
+	class 15Rnd_545x39_AKSD : 30Rnd_545x39_AKSD {
+		displayName = "15Rnd AKSD";
+		count = 15;
+		descriptionShort = "15Rnd Soviete (AKSD)";
+		displayNameShort = "AKSD";
+	};
 };
 class Mode_SemiAuto {};
 
@@ -107,6 +121,11 @@ class cfgWeapons {
 	class Rifle ;
 	class M4A1;
 	class M16A2;
+	class AK_74;
+	class AK_74_GL;
+	class AKS_74_kobra;
+	class AKS_74_U;
+	class AKS_74_UN_kobra;
 	class AK74 : Rifle {};
 	class Mosin38 : AK74 {
 		scope = 2;
@@ -206,4 +225,27 @@ class cfgWeapons {
 			libTextDesc = "M4 Rifle with makeshift FlashLight mount";
 		};
 	};
+	
+	class AK_74_apo: AK_74
+	{	
+		magazines[] = {"15Rnd_545x39_AK"};
+	};
+	
+	class AK_74_GL_apo: AK_74_GL
+	{	
+		magazines[] = {"15Rnd_545x39_AK"};
+	};
+	class AKS_74_kobra_apo: AKS_74_kobra
+	{	
+		magazines[] = {"15Rnd_545x39_AK"};
+	};
+	class AKS_74_U_apo: AKS_74_U
+	{	
+		magazines[] = {"15Rnd_545x39_AK, 15Rnd_545x39_AKSD"};
+	};
+	class AKS_74_UN_kobra_apo: AKS_74_UN_kobra
+	{	
+		magazines[] = {"15Rnd_545x39_AK, 15Rnd_545x39_AKSD"};
+	};
+	
 };

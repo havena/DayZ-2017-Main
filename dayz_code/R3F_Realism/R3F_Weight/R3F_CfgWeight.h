@@ -488,7 +488,15 @@ class CfgWeight
 		{
 			weight = 3.8;   //<-DayzRP.fr
 		};
+		class AKS_74_U_apo
+		{
+			weight = 3.8;   //<-DayzRP.fr
+		};
 		class AKS_74_UN_kobra
+		{
+			weight = 4;  //<-DayzRP.fr
+		};
+		class AKS_74_UN_kobra_apo
 		{
 			weight = 4;  //<-DayzRP.fr
 		};
@@ -500,11 +508,23 @@ class CfgWeight
 		{
 			weight = 3.8;  //<-DayzRP.fr
 		};
+		class AKS_74_kobra_apo
+		{
+			weight = 3.8;  //<-DayzRP.fr
+		};
 		class AK_74
 		{
 			weight = 3.6;  //<-DayzRP.fr
 		};
+		class AK_74_apo
+		{
+			weight = 3.6;  //<-DayzRP.fr
+		};
 		class AK_74_GL
+		{
+			weight = 4;  //<-DayzRP.fr
+		};
+		class AK_74_GL_apo
 		{
 			weight = 4;  //<-DayzRP.fr
 		};
@@ -939,7 +959,7 @@ class CfgWeight
 		};
 		class 30Rnd_545x39_AKSD
 		{
-			weight = 10000; 
+			weight = 10000;
 		};
 		class 75Rnd_545x39_RPK
 		{
@@ -1497,5 +1517,6 @@ class CfgWeight
 		{
 			weight = 0.8; //<-DayzRP.fr
 		};
+		
 	};
 };

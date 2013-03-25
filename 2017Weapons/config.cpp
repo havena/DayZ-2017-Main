@@ -241,11 +241,11 @@ class cfgWeapons {
 	};
 	class AKS_74_U_apo: AKS_74_U
 	{	
-		magazines[] = {"15Rnd_545x39_AK, 15Rnd_545x39_AKSD"};
+		magazines[] = {"15Rnd_545x39_AK", "15Rnd_545x39_AKSD"};
 	};
 	class AKS_74_UN_kobra_apo: AKS_74_UN_kobra
 	{	
-		magazines[] = {"15Rnd_545x39_AK, 15Rnd_545x39_AKSD"};
+		magazines[] = {"15Rnd_545x39_AK", "15Rnd_545x39_AKSD"};
 	};
 	
 };
